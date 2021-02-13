@@ -1,5 +1,5 @@
 {
-    "cards": [
+    "uicards": [
         {
             "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png",
             "header":"Figma",
@@ -41,21 +41,71 @@
             "children": "Framer is a browser-based interactive design and prototyping tool."
         },
         {
+            "logo":"https://ga1.imgix.net/logo/o/91065-1487749816-7583342?auto=format&ch=Width%2CDPR&dpr=2.63&ixjsv=2.0.0&ixlib=rb-1.0.0&q=38&w=400",
+            "header":"Balsamiq",
+            "link":"https://balsamiq.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Wireframing",
+            "cost":"$$$",
+            "children": "An easy-to-use rapid low-fidelity UI wireframing tool."
+        },
+        {
+            "logo":"https://ph-files.imgix.net/46ac658f-2ba2-45ce-b684-1366d80dbbe4?auto=format",
+            "header":"Color Box",
+            "link":"https://colorbox.io/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Colors",
+            "cost":"Open-Source",
+            "children": "An open-source tool for creating color palettes originally developed by Lyft's team."
+        },
+        {
             "logo":"https://avatars.githubusercontent.com/u/29268069?s=400&v=4",
             "header":"Feather Icons",
-            "link":"https://www.framer.com/",
+            "link":"https://feathericons.com/",
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
             "cost":"Open-Source",
-            "children": "Framer is a browser-based interactive design and prototyping tool."
+            "children": "An open-source set of 24px React icons. Sets for Sketch and Figma available as well."
+        },
+        {
+            "logo":"https://www.saashub.com/images/app/service_logos/26/a214ae57b3aa/large.png?1560201270",
+            "header":"Streamline Icons",
+            "link":"https://streamlineicons.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"$$$",
+            "children": "A massive categorized 30,000-icon library, each icon available in 3 distinct weights."
+        },
+        {
+            "logo":"https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
+            "header":"Jetbrains Mono",
+            "link":"https://www.jetbrains.com/lp/mono/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Font",
+            "cost":"Open-Source",
+            "children": "An open-source monospace font designed for developers. Looks great at large and small scale."
+        },
+        {
+            "logo":"https://briangardner.com/wp-content/uploads/inter-font-1.jpg",
+            "header":"Inter",
+            "link":"https://rsms.me/inter/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Font",
+            "cost":"Open-Source",
+            "children": "A beautiful open-source variable sans-serif font, intended for use on-screen."
         },
         {
             "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmLVIGyVVDqk_7ey7S1UbliLmqOHVMXJJA&usqp=CAU",
             "header":"GitHub",
             "link":"https://github.com/",
             "target":"_blank",
-            "category":"Dev",
+            "category":"Code",
             "tag":"Repo",
             "cost":"Free",
             "children": "GitHub is a repository for development and version control using Git."

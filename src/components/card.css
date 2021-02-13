@@ -1,13 +1,13 @@
 
 card {
     position: relative;
-    width: 260px;
+    width: 250px;
     height: 220px;
     padding: 1rem;
     background: rgba(255, 255, 255, 0.0);
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin: 0px;
-    margin-bottom: 12px;
+    margin: 0.5rem;
     box-shadow: inset 0px 0px 0px 0.5px rgba(255, 255, 255);
     color: white;
 }
@@ -62,7 +62,7 @@ card p {
 }
 
 card a {
-    opacity: 50%;
+    opacity: 30%;
     padding: 0;
     box-shadow: none;
     border-radius: 0;  

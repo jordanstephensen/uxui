@@ -4,13 +4,22 @@ import Layout from "../components/layout"
 import Card from "../components/card"
 import SEO from "../components/seo"
 
-import uicards from "../../data/uicards.json"
+import uicards from "../../data/staticdata.json"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      {uicards.cards.map(card => (
-        <Card id="UI design tools" logo={card.logo} header={card.header} link={card.link} target={card.target} category={card.category} tag={card.tag} cost={card.cost}>{card.children}</Card>
+      {uicards.uicards.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
       ))}
   </Layout>
 )

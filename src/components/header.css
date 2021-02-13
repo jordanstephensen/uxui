@@ -8,5 +8,9 @@
 }
 
 #header__logo {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.header__filters {
+    margin-top: 1rem;
 }

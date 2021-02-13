@@ -35,7 +35,8 @@ class Header extends React.Component {
         <Link to="/">
             <img id="header__logo" src={logo} alt="UXUI"/>
         </Link>
-        <div className="header__categories">
+        <h4>&nbsp;The Design Internet.</h4>
+        <div className="header__filters">
           <Filter label="UX" />
           <Filter label="UI" />
           <Filter label="Dev" />
