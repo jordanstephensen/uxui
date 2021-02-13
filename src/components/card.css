@@ -1,0 +1,98 @@
+
+card {
+    position: relative;
+    width: 260px;
+    height: 220px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.0);
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    margin: 0px;
+    margin-bottom: 12px;
+    box-shadow: inset 0px 0px 0px 0.5px rgba(255, 255, 255);
+    color: white;
+}
+
+card:hover {
+    /* background: rgba(255, 255, 255, 0.15); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.10) 100%);
+    box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), inset 0px 0px 30px rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+card:active {
+    filter: blur(20px);
+    border-radius: 26px;
+}
+
+.card-contents {
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.card-contents__head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+#card-contents__head--logo {
+    max-width: 45px;
+    max-height: 45px;
+    object-fit: cover;
+}
+
+.card-contents__body {
+    margin-bottom: 0.25rem;
+    flex-grow: 2;
+}
+
+.card-contents__pill-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+card p {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+card a {
+    opacity: 50%;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;  
+}
+
+card a:hover {
+    opacity: 100%;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;  
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);    
+}
+
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+
+    card {
+        border: 0.25px solid white;
+    }
+}

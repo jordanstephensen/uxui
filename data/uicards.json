@@ -1,0 +1,64 @@
+{
+    "cards": [
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png",
+            "header":"Figma",
+            "link":"https://www.figma.com",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"Free Plan",
+            "children": "Figma is a browser-based collaborative design tool. Strong illustration capabilities too."
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/788px-Sketch_Logo.svg.png",
+            "header":"Sketch",
+            "link":"https://www.sketch.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "Sketch is a vector graphics editor, digital design toolbox, and more."
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1024px-Adobe_XD_CC_icon.svg.png",
+            "header":"Adobe XD",
+            "link":"https://www.adobe.com/ca/products/xd/features.html",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "Adobe XD is Adobe’s response to Sketch. lol."
+        },
+        {
+            "logo":"https://raw.githubusercontent.com/podo/awesome-framer/master/logo.png",
+            "header":"Framer",
+            "link":"https://www.framer.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"Free Plan",
+            "children": "Framer is a browser-based interactive design and prototyping tool."
+        },
+        {
+            "logo":"https://avatars.githubusercontent.com/u/29268069?s=400&v=4",
+            "header":"Feather Icons",
+            "link":"https://www.framer.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"Open-Source",
+            "children": "Framer is a browser-based interactive design and prototyping tool."
+        },
+        {
+            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmLVIGyVVDqk_7ey7S1UbliLmqOHVMXJJA&usqp=CAU",
+            "header":"GitHub",
+            "link":"https://github.com/",
+            "target":"_blank",
+            "category":"Dev",
+            "tag":"Repo",
+            "cost":"Free",
+            "children": "GitHub is a repository for development and version control using Git."
+        }
+    ]
+}
