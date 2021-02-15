@@ -1,8 +1,8 @@
 .filter {
-    color: black;
-    background: white;
+    color: white;
     padding: 2px 5px;
     margin: 2px;
+    border: 1px solid white;
     border-radius: 30px;
     display: inline;
 }

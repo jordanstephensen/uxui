@@ -1,0 +1,7 @@
+topbar {
+    height: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+
+    padding: 1rem;
+}

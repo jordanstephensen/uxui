@@ -35,7 +35,6 @@ site {
 main {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
   flex: 1 0 auto;
 }
 
@@ -120,13 +119,15 @@ p {
 
 /* Media Queries */
 
-@media (max-width: 500px) {
-  #name {
-      display: none; 
+@media (max-width: 900px) {
+  site {
+    max-width: 600px;
   }
+}
 
-  #animatedbackground {
-    display: none; 
+@media (max-width: 600px) {
+  site {
+    max-width: 400px;
   }
 }
 

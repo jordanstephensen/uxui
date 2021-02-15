@@ -1,0 +1,14 @@
+button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+
+button p {
+    margin: 0;
+}

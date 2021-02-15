@@ -3,13 +3,13 @@ import React from "react"
 
 import './filter.css'
 
-const Fill = ({ label }) => (
+const Filter = ({ label }) => (
         <h4 className="filter">{label}</h4> 
 )
 
-Fill.propTypes = {
+Filter.propTypes = {
   label: PropTypes.string,
   type: PropTypes.string,
 }
 
-export default Fill
+export default Filter

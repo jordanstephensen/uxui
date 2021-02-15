@@ -21,6 +21,7 @@
     border-radius: 8px;
     background-color: #7000FF;
     box-shadow: inset 0px 0px 1px rgba(0, -1, 0, 0.1);
+    margin-right: 0.125rem;
 }
 
 .pill-category--ux {

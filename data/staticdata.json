@@ -18,7 +18,7 @@
             "category":"UI",
             "tag":"Design Tool",
             "cost":"$$$",
-            "children": "Sketch is a vector graphics editor, digital design toolbox, and more."
+            "children": "Sketch is a vector graphics editor, digital design toolbox, and more. The OG of UI design tools."
         },
         {
             "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1024px-Adobe_XD_CC_icon.svg.png",
@@ -28,7 +28,7 @@
             "category":"UI",
             "tag":"Design Tool",
             "cost":"$$$",
-            "children": "Adobe XD is Adobe’s response to Sketch. lol."
+            "children": "Adobe XD is Adobe’s response to Sketch. lol. Design, prototype, dev handoff."
         },
         {
             "logo":"https://raw.githubusercontent.com/podo/awesome-framer/master/logo.png",
@@ -69,6 +69,26 @@
             "tag":"Icons",
             "cost":"Open-Source",
             "children": "An open-source set of 24px React icons. Sets for Sketch and Figma available as well."
+        },
+        {
+            "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
+            "header":"The Noun Project",
+            "link":"https://thenounproject.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"Free Plan",
+            "children": "A massive and diverse collection of icons made by designers from all over the world."
+        },
+        {
+            "logo":"https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2019/07/avatar-blue-scale-0.5@2x.png?resize=1%2C1&ssl=1",
+            "header":"Font Awesome",
+            "link":"https://fontawesome.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"Free Plan",
+            "children": "A vector icon font and toolkit. Super easy to import into your projects and use."
         },
         {
             "logo":"https://www.saashub.com/images/app/service_logos/26/a214ae57b3aa/large.png?1560201270",

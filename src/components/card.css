@@ -15,7 +15,7 @@ card {
 card:hover {
     /* background: rgba(255, 255, 255, 0.15); */
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.10) 100%);
-    box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), inset 0px 0px 30px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0.05), inset 0px 0px 30px rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -90,9 +90,9 @@ card a:hover {
 
 /* Media Queries */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     card {
-        border: 0.25px solid white;
+        width: 400px;
     }
 }
