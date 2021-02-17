@@ -4,12 +4,12 @@ import Layout from "../components/layout"
 import Card from "../components/card"
 import SEO from "../components/seo"
 
-import uicards from "../../data/staticdata.json"
+import data from "../../data/staticdata.json"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      {uicards.uicards.map(card => (
+      {data.designtool.map(card => (
         <Card id="UI design tools" 
           logo={card.logo} 
           header={card.header} 
@@ -21,6 +21,67 @@ const IndexPage = () => (
             {card.children}
         </Card>
       ))}
+      {data.wireframing.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
+      {data.color.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
+      {data.icons.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
+      {data.fonts.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
+      {data.repo.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
+
   </Layout>
 )
 

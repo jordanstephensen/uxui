@@ -12,6 +12,7 @@ body {
   /* background: linear-gradient(0deg, #5302FF 0%, #1502FF 22.92%, #000000 78.12%); */
   /* background: linear-gradient(180deg, #000000 29.43%, #001BBE 69.03%, #6B6DA8 80.41%, #BE8598 86.85%, #FF978C 92.42%, #FF8A70 96.25%, #FF531E 100%); */
   background: radial-gradient(236.43% 109.74% at 50% 118.89%, #DB5B50 16.09%, #B53A4F 24.83%, #5C1D90 35.18%, #0000D2 52.76%, #000000 79.09%);
+  /* background: black; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;
@@ -112,7 +113,7 @@ p {
 
 ::selection {
   color: #000;
-  background-color: rgb(187, 255, 0);
+  background-color: rgb(255, 255, 0);
 }
 
 

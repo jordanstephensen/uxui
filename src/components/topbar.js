@@ -9,9 +9,8 @@ import './topbar.css'
 
 const Topbar = ({ children }) => (
   <topbar>
-    <div className="topbar__container--left">
-      <Button link="https://github.com/jordanstephensen/uxui"><img src={github} alt="Github logo"/> &nbsp; v 1.0</Button>
-    </div>
+      <Button type="button" link="https://github.com/jordanstephensen/uxui"><img src={github} alt="Github logo"/> &nbsp; Beta v0.1.1</Button>
+      <Button type="button" link="https://github.com/jordanstephensen/uxui">About</Button>
   </topbar>
 )
 

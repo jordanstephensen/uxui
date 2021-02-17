@@ -4,7 +4,9 @@ import React from "react"
 import './filter.css'
 
 const Filter = ({ label }) => (
-        <h4 className="filter">{label}</h4> 
+      <filter >
+        <h4>{label}</h4> 
+      </filter>
 )
 
 Filter.propTypes = {

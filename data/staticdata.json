@@ -1,5 +1,5 @@
 {
-    "uicards": [
+    "designtool": [
         {
             "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png",
             "header":"Figma",
@@ -41,6 +41,19 @@
             "children": "Framer is a browser-based interactive design and prototyping tool."
         },
         {
+            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAtL1Dicwo85KSbk9-QGDmrEqWFz0naDDEg&usqp=CAU",
+            "header":"UXPin",
+            "link":"https://www.uxpin.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "A UI design tool with interactive states, logic, and code components built in."
+        }
+
+    ],
+    "wireframing": [
+        {
             "logo":"https://ga1.imgix.net/logo/o/91065-1487749816-7583342?auto=format&ch=Width%2CDPR&dpr=2.63&ixjsv=2.0.0&ixlib=rb-1.0.0&q=38&w=400",
             "header":"Balsamiq",
             "link":"https://balsamiq.com/",
@@ -49,17 +62,21 @@
             "tag":"Wireframing",
             "cost":"$$$",
             "children": "An easy-to-use rapid low-fidelity UI wireframing tool."
-        },
+        }
+    ],
+    "color": [
         {
             "logo":"https://ph-files.imgix.net/46ac658f-2ba2-45ce-b684-1366d80dbbe4?auto=format",
             "header":"Color Box",
             "link":"https://colorbox.io/",
             "target":"_blank",
             "category":"UI",
-            "tag":"Colors",
+            "tag":"Color",
             "cost":"Open-Source",
             "children": "An open-source tool for creating color palettes originally developed by Lyft's team."
-        },
+        }
+    ],
+    "icons": [
         {
             "logo":"https://avatars.githubusercontent.com/u/29268069?s=400&v=4",
             "header":"Feather Icons",
@@ -69,6 +86,16 @@
             "tag":"Icons",
             "cost":"Open-Source",
             "children": "An open-source set of 24px React icons. Sets for Sketch and Figma available as well."
+        },
+         {
+            "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
+            "header":"CSS.gg",
+            "link":"https://thenounproject.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"Free Plan",
+            "children": "A massive and diverse collection of icons made by designers from all over the world."
         },
         {
             "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
@@ -81,25 +108,17 @@
             "children": "A massive and diverse collection of icons made by designers from all over the world."
         },
         {
-            "logo":"https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2019/07/avatar-blue-scale-0.5@2x.png?resize=1%2C1&ssl=1",
-            "header":"Font Awesome",
-            "link":"https://fontawesome.com/",
+            "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
+            "header":"The Noun Project",
+            "link":"https://thenounproject.com/",
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
             "cost":"Free Plan",
-            "children": "A vector icon font and toolkit. Super easy to import into your projects and use."
-        },
-        {
-            "logo":"https://www.saashub.com/images/app/service_logos/26/a214ae57b3aa/large.png?1560201270",
-            "header":"Streamline Icons",
-            "link":"https://streamlineicons.com/",
-            "target":"_blank",
-            "category":"UI",
-            "tag":"Icons",
-            "cost":"$$$",
-            "children": "A massive categorized 30,000-icon library, each icon available in 3 distinct weights."
-        },
+            "children": "A massive and diverse collection of icons made by designers from all over the world."
+        }
+    ],
+    "fonts": [
         {
             "logo":"https://www.jetbrains.com/company/brand/img/jetbrains_logo.png",
             "header":"Jetbrains Mono",
@@ -119,7 +138,9 @@
             "tag":"Font",
             "cost":"Open-Source",
             "children": "A beautiful open-source variable sans-serif font, intended for use on-screen."
-        },
+        }
+    ],
+    "repo": [
         {
             "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmLVIGyVVDqk_7ey7S1UbliLmqOHVMXJJA&usqp=CAU",
             "header":"GitHub",
