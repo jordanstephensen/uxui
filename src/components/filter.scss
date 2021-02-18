@@ -1,0 +1,27 @@
+filter {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    height: 2.5rem;
+    padding: 2px 25px;
+    vertical-align: middle;
+    border-radius: 50px 60px 0 0;
+    transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+filter:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.12) 100%);
+    box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0.05), inset 0px 0px 30px rgba(255, 255, 255, 0.10);
+    border-radius: 16px 16px 0 0;
+    transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+}
+
+filter h5 {
+    line-height: 1px;
+}
+
+filter a {
+    text-decoration: none;
+}

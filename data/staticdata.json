@@ -52,6 +52,68 @@
         }
 
     ],
+    "designsystem": [
+        {
+            "logo":"https://www.adobe.com/favicon.ico",
+            "header":"Adobe",
+            "link":"https://spectrum.adobe.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Spectrum Design System"
+        },
+        {
+            "logo":"https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png",
+            "header":"Alibaba",
+            "link":"https://design.firefox.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Ant Design System"
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/862px-Apple_logo_grey.svg.png",
+            "header":"Apple",
+            "link":"https://developer.apple.com/design/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Apple Developer Design Guidelines"
+        },
+        {
+            "logo":"https://cfdn.clearvision-cm.com/2019/02/15102556/Atlassian-Logo.png",
+            "header":"Atlassian",
+            "link":"https://atlassian.design/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Atlassian Design System"
+        },
+        {
+            "logo":"https://www.mozilla.org/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png",
+            "header":"Photon",
+            "link":"https://design.firefox.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Mozilla Firefox design system."
+        },
+        {
+            "logo":"https://54zexyd7o4z58ttz19dx11xa-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/wework-logo.png",
+            "header":"Plasma",
+            "link":"https://github.com/wework/plasma",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "WeWork design system."
+        }
+    ],
     "wireframing": [
         {
             "logo":"https://ga1.imgix.net/logo/o/91065-1487749816-7583342?auto=format&ch=Width%2CDPR&dpr=2.63&ixjsv=2.0.0&ixlib=rb-1.0.0&q=38&w=400",
@@ -88,24 +150,24 @@
             "children": "An open-source set of 24px React icons. Sets for Sketch and Figma available as well."
         },
          {
-            "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
+            "logo":"https://css.gg/fav/favicon-96x96.png",
             "header":"CSS.gg",
-            "link":"https://thenounproject.com/",
+            "link":"https://css.gg/",
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
-            "cost":"Free Plan",
-            "children": "A massive and diverse collection of icons made by designers from all over the world."
+            "cost":"Open-Source",
+            "children": "Needs descrip."
         },
         {
-            "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
-            "header":"The Noun Project",
-            "link":"https://thenounproject.com/",
+            "logo":"https://ionicons.com/assets/img/meta/favicon-96x96.png",
+            "header":"Ionicons",
+            "link":"https://ionicons.com/",
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
-            "cost":"Free Plan",
-            "children": "A massive and diverse collection of icons made by designers from all over the world."
+            "cost":"Open-Source",
+            "children": "Needs descrip."
         },
         {
             "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
@@ -142,7 +204,7 @@
     ],
     "repo": [
         {
-            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmLVIGyVVDqk_7ey7S1UbliLmqOHVMXJJA&usqp=CAU",
+            "logo":"https://github.githubassets.com/favicons/favicon-dark.svg",
             "header":"GitHub",
             "link":"https://github.com/",
             "target":"_blank",

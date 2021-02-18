@@ -4,20 +4,20 @@ import popout from '../images/popout-icon.svg'
 import Pill from "../components/pill"
 
 
-import './card.css'
+import './card.scss'
 
 const Card = ({ logo, header, category, tag, cost, link, target, children }) => (
   <card>
     <div className="card-contents">
       <div className="card-contents__head">
-          <img id="card-contents__head--logo" src={logo} alt={header}/>
+          <div className="card-contents__head--logo"><img id="card-contents__head--logo" src={logo} alt={header}/></div>
           <a className="stretched-link" href={link} target={target} rel="nofollow" >
             <img id="card-contents__head--icon" src={popout} alt="pop out icon"/>
           </a>
       </div>
       <div className="card-contents__body">
         <h3>{header}</h3>
-        <p>{children}</p>
+        {children}
       </div>
       <div className="card-contents__pill-container">
         <Pill label={category} type={category} />

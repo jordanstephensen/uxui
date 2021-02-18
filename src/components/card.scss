@@ -6,8 +6,7 @@ card {
     padding: 1rem;
     background: rgba(255, 255, 255, 0.0);
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    margin: 0px;
-    margin: 0.5rem;
+    margin: 0.55rem;
     box-shadow: inset 0px 0px 0px 0.5px rgba(255, 255, 255);
     color: white;
 }
@@ -40,11 +39,17 @@ card:active {
     margin-bottom: 1rem;
 }
 
-#card-contents__head--logo {
-    max-width: 45px;
-    max-height: 45px;
-    object-fit: cover;
+.card-contents__head--logo {
+    width: 45px;
+    height: 45px;
 }
+
+#card-contents__head--logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 
 .card-contents__body {
     margin-bottom: 0.25rem;

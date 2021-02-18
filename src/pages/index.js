@@ -21,6 +21,18 @@ const IndexPage = () => (
             {card.children}
         </Card>
       ))}
+      {data.designsystem.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            {card.children}
+        </Card>
+      ))}
       {data.wireframing.map(card => (
         <Card id="UI design tools" 
           logo={card.logo} 

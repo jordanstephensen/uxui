@@ -9,22 +9,36 @@ html, body {
 }
 
 body {
-  /* background: linear-gradient(0deg, #5302FF 0%, #1502FF 22.92%, #000000 78.12%); */
+  // background: linear-gradient(0deg, #5302FF 0%, #1502FF 12.92%, #000000 48.12%);
   /* background: linear-gradient(180deg, #000000 29.43%, #001BBE 69.03%, #6B6DA8 80.41%, #BE8598 86.85%, #FF978C 92.42%, #FF8A70 96.25%, #FF531E 100%); */
   background: radial-gradient(236.43% 109.74% at 50% 118.89%, #DB5B50 16.09%, #B53A4F 24.83%, #5C1D90 35.18%, #0000D2 52.76%, #000000 79.09%);
-  /* background: black; */
+  // background: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;
 }
 
+// body::after {
+//   content  : "";
+//   position : absolute;
+//   z-index  : 1;
+//   bottom   : -15rem;
+//   left     : 0;
+//   pointer-events   : none;
+//   background-image : linear-gradient(to bottom, 
+//                     rgba(0, 0, 0, 0), 
+//                     rgb(0, 0, 0) 100%);
+//   width    : 100%;
+//   height   : 20vh;
+// }
 
-site {
+.site {
   max-width: 900px;
   margin: 0 auto;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-weight: 100;
   font-size: 20px;
@@ -89,13 +103,18 @@ h3 {
 
 h4 {
   font-family: 'Jetbrains Mono', monospace;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.25rem;
+  font-weight: 300;
   box-shadow: none;
   padding: 0px;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
+}
+
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 h6 {
@@ -115,8 +134,6 @@ p {
   color: #000;
   background-color: rgb(255, 255, 0);
 }
-
-
 
 /* Media Queries */
 

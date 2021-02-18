@@ -4,48 +4,16 @@ import React from "react"
 import Filter from "../components/filter"
 import logo from "../images/uxui-logo.svg"
 
-import './header.css'
+import './header.scss'
 
-class Header extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      hasScrolled: false
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  }
-
-  handleScroll = (event) => {
-    const scrollTop = window.pageYOffset
-
-    if (scrollTop > 50) {
-      this.setState({ hasScrolled: true })
-    } else {
-      this.setState({ hasScrolled: false })
-    }
-  }
-
-  render() {
-    return (
-    <div className={this.state.hasScrolled ? 'header HeaderScrolled' : 'header'}>
-        <Link to="/">
-            <img id="header__logo" src={logo} alt="UXUI"/>
-        </Link>
-        <h4>&nbsp;The Design Internet.</h4>
-        <div className="header__filters">
-          <Filter label="UX" />
-          <Filter label="UI" />
-          <Filter label="Code" />
-        </div>
-    </div>
-    )
-  };
-};
-
+const Header = ({  }) => (
+  <header>
+      <Link to="/">
+        <img id="header__logo" src={logo} alt="UXUI"/>
+      </Link>
+      <h4>&nbsp;Everything Open-Source.</h4>
+    </header>
+)
 
 
 export default Header

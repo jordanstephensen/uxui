@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import './button.css'
+import './button.scss'
 
 const Button = ({ link, type, children }) => (
   <form action={link}>

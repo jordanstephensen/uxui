@@ -8,10 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "../components/header"
 import Topbar from "../components/topbar"
+import Header from "../components/header"
+import Filters from "../components/filters"
+import FiltersScrolled from "../components/filtersscrolled"
+import Footer from "../components/footer"
 
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,12 +30,16 @@ const Layout = ({ children }) => {
   return (
     <>
       <Topbar/>
-      <site>
+      <div className="site">
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+        {/* <Filters />
+        <FiltersScrolled /> */}
+
         <div>
           <main>{children}</main>
         </div>
-      </site>
+        <Footer />
+      </div>
     </>
   )
 }

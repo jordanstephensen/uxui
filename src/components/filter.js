@@ -1,11 +1,11 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import './filter.css'
+import './filter.scss'
 
 const Filter = ({ label }) => (
       <filter >
-        <h4>{label}</h4> 
+        <h5>{label}</h5> 
       </filter>
 )
 
