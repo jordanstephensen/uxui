@@ -18,7 +18,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.designsystem.map(card => (
@@ -30,7 +30,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.wireframing.map(card => (
@@ -42,7 +42,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.color.map(card => (
@@ -54,7 +54,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.icons.map(card => (
@@ -66,7 +66,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.fonts.map(card => (
@@ -78,7 +78,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
       {data.repo.map(card => (
@@ -90,7 +90,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            {card.children}
+            <p>{card.children}</p>
         </Card>
       ))}
 

@@ -34,3 +34,10 @@
     padding: 1rem;
   }
 }
+
+@media (max-width: 600px) {
+
+  #footer__flare {
+    display: none;  
+  }
+}
