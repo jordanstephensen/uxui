@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;
+  // cursor: url(/src/images/cursor-default.svg), auto;
 }
 
 // body::after {
@@ -52,6 +53,7 @@ main {
   flex-flow: row wrap;
   flex: 1 0 auto;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 
 footer {

@@ -11,26 +11,6 @@
             "children": "Figma is a browser-based collaborative design tool. Strong illustration capabilities too."
         },
         {
-            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/788px-Sketch_Logo.svg.png",
-            "header":"Sketch",
-            "link":"https://www.sketch.com/",
-            "target":"_blank",
-            "category":"UI",
-            "tag":"Design Tool",
-            "cost":"$$$",
-            "children": "Sketch is a vector graphics editor, digital design toolbox, and more. The OG of UI design tools."
-        },
-        {
-            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1024px-Adobe_XD_CC_icon.svg.png",
-            "header":"Adobe XD",
-            "link":"https://www.adobe.com/ca/products/xd/features.html",
-            "target":"_blank",
-            "category":"UI",
-            "tag":"Design Tool",
-            "cost":"$$$",
-            "children": "Adobe XD is Adobe’s response to Sketch. lol. Design, prototype, dev handoff."
-        },
-        {
             "logo":"https://raw.githubusercontent.com/podo/awesome-framer/master/logo.png",
             "header":"Framer",
             "link":"https://www.framer.com/",
@@ -39,18 +19,7 @@
             "tag":"Design Tool",
             "cost":"Free Plan",
             "children": "Framer is a browser-based interactive design and prototyping tool."
-        },
-        {
-            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAtL1Dicwo85KSbk9-QGDmrEqWFz0naDDEg&usqp=CAU",
-            "header":"UXPin",
-            "link":"https://www.uxpin.com/",
-            "target":"_blank",
-            "category":"UI",
-            "tag":"Design Tool",
-            "cost":"$$$",
-            "children": "A UI design tool with interactive states, logic, and code components built in."
         }
-
     ],
     "designsystem": [
         {
@@ -94,24 +63,144 @@
             "children": "Atlassian Design System"
         },
         {
+            "logo":"https://img.stackshare.io/service/6038/d3f36dc2-a804-11e6-80ff-51ada2d13ea7.png",
+            "header":"Blueprint",
+            "link":"https://blueprintjs.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "React-based UI toolkit for the web"
+        },
+        {
+            "logo":"https://www.cloudflare.com/img/cf-facebook-card.png",
+            "header":"Cloudflare",
+            "link":"https://cloudflare.github.io/cf-ui/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "cf-ui Design System"
+        },
+        {
+            "logo":"https://chakra-ui.com/favicon.png",
+            "header":"Chakra UI",
+            "link":"https://chakra-ui.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Simple, modular and accessible component library"
+        },
+        {
+            "logo":"https://images.ctfassets.net/7jw9uvgmirvi/6zy6z03h0NNOLkybqqfH9l/a5261744c4f33cd1de92bbc4611d01d9/Segment.svg",
+            "header":"Evergreen",
+            "link":"https://evergreen.surge.sh/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "React UI Framework for the Web"
+        },
+        {
             "logo":"https://www.mozilla.org/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png",
-            "header":"Photon",
+            "header":"Firefox",
             "link":"https://design.firefox.com/",
             "target":"_blank",
             "category":"Design System",
             "tag":"React",
             "cost":"Open-Source",
-            "children": "Mozilla Firefox design system."
+            "children": "Photon Design System"
         },
         {
+            "logo":"https://github.githubassets.com/favicons/favicon-dark.svg",
+            "header":"GitHub",
+            "link":"https://primer.style/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Primer Design System"
+        },
+        {
+            "logo":"https://design.gitlab.com/favicon.ico",
+            "header":"Gitlab",
+            "link":"https://design.gitlab.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Pajamas Design System"
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Material_Design_Logo.svg/1024px-Google_Material_Design_Logo.svg.png",
+            "header":"Google",
+            "link":"https://material.io/design",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Material Design System"
+        },
+        {
+            "logo":"https://static.hsappstatic.net/ui-library-public/static-1.91/img/canvas-favicon.svg",
+            "header":"HubSpot",
+            "link":"https://canvas.hubspot.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Canvas Design System"
+        },
+        {
+            "logo":"https://www.carbondesignsystem.com/favicon.svg?v=5cf4c8343dc066e64aa2555b67a58e0a",
+            "header":"IBM",
+            "link":"https://www.carbondesignsystem.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Carbon Design System"
+        },
+        {
+            "logo":"https://jetbrains.github.io/ring-ui/master/ring-ui-favicon.ico",
+            "header":"JetBrains",
+            "link":"https://jetbrains.github.io/ring-ui/master/index.html?path=/story/ring-ui-welcome--getting-started",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Ring UI"
+        },
+        {
+            "logo":"https://cdn.worldvectorlogo.com/logos/pinterest-3.svg",
+            "header":"Pinterest",
+            "link":"https://gestalt.netlify.app/What's%20New",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Gestalt Design System"
+        },
+        {
+            "logo":"https://user-images.githubusercontent.com/4683221/34775011-89bb46c2-f609-11e7-8bd1-d7a70d2277fd.jpg",
+            "header":"Pluralsight",
+            "link":"https://design-system.pluralsight.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Pluralsight Design System"
+        },        
+        {
             "logo":"https://54zexyd7o4z58ttz19dx11xa-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/wework-logo.png",
-            "header":"Plasma",
+            "header":"WeWork",
             "link":"https://github.com/wework/plasma",
             "target":"_blank",
             "category":"Design System",
             "tag":"React",
             "cost":"Open-Source",
-            "children": "WeWork design system."
+            "children": "Plasma Design System"
         }
     ],
     "wireframing": [
@@ -200,6 +289,16 @@
             "tag":"Font",
             "cost":"Open-Source",
             "children": "A beautiful open-source variable sans-serif font, intended for use on-screen."
+        },
+        {
+            "logo":"https://www.gstatic.com/images/branding/product/ico/google_fonts_blue_lodp.ico",
+            "header":"Google Fonts",
+            "link":"https://fonts.google.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Font",
+            "cost":"Open-Source",
+            "children": "A huge library of free licensed font families, with APIs for easily importing and using the fonts."
         }
     ],
     "repo": [
@@ -212,6 +311,102 @@
             "tag":"Repo",
             "cost":"Free",
             "children": "GitHub is a repository for development and version control using Git."
+        }
+    ],
+    "css": [
+        {
+            "logo":"https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png",
+            "header":"Bootstrap",
+            "link":"https://getbootstrap.com/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"CSS",
+            "cost":"Open-Source",
+            "children": "Featuring a responsive grid system, prebuilt components, and JavaScript plugins."
+        },
+        {
+            "logo":"https://seeklogo.com/images/B/bulma-logo-45B5145BF4-seeklogo.com.png",
+            "header":"Bulma",
+            "link":"https://bulma.io/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"CSS",
+            "cost":"Open-Source",
+            "children": "A framework that provides frontend components easily combined to build responsive web interfaces."
+        },
+        {
+            "logo":"https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg",
+            "header":"Tailwind CSS",
+            "link":"https://tailwindcss.com/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"CSS",
+            "cost":"Open-Source",
+            "children": "A utility-first CSS framework packed with classes that can be used directly in your markup."
+        }
+    ],
+    "community": [
+        {
+            "logo":"https://aws1.discourse-cdn.com/standard17/uploads/opensourcedesign/original/1X/8cd739a58030a4afeb37abf872f5ffd3319bbc63.png",
+            "header":"Open Source Design",
+            "link":"https://discourse.opensourcedesign.net/",
+            "target":"_blank",
+            "category":"Community",
+            "tag":"Forum",
+            "cost":"Open-Source",
+            "children": "An open-source design community."
+        },
+        {
+            "logo":"https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg",
+            "header":"Design Systems Slack",
+            "link":"https://design.systems/slack/",
+            "target":"_blank",
+            "category":"Community",
+            "tag":"Slack",
+            "cost":"Design Systems",
+            "children": "A Slack community focused on design systems."
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png",
+            "header":"Friends of Figma",
+            "link":"https://friends.figma.com/#slack",
+            "target":"_blank",
+            "category":"Community",
+            "tag":"Slack",
+            "cost":"UI Design",
+            "children": "Figma's Slack workspace, open to all. UX and UI related channels."
+        }
+    ],
+    "Unused": [
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/788px-Sketch_Logo.svg.png",
+            "header":"Sketch",
+            "link":"https://www.sketch.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "Sketch is a vector graphics editor, digital design toolbox, and more. The OG of UI design tools."
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1024px-Adobe_XD_CC_icon.svg.png",
+            "header":"Adobe XD",
+            "link":"https://www.adobe.com/ca/products/xd/features.html",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "Adobe XD is Adobe’s response to Sketch. lol. Design, prototype, dev handoff."
+        },
+        {
+            "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAtL1Dicwo85KSbk9-QGDmrEqWFz0naDDEg&usqp=CAU",
+            "header":"UXPin",
+            "link":"https://www.uxpin.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Design Tool",
+            "cost":"$$$",
+            "children": "A UI design tool with interactive states, logic, and code components built in."
         }
     ]
 }

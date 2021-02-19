@@ -30,7 +30,7 @@ const IndexPage = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            <p>{card.children}</p>
+            <h4>{card.children}</h4>
         </Card>
       ))}
       {data.wireframing.map(card => (
@@ -82,6 +82,30 @@ const IndexPage = () => (
         </Card>
       ))}
       {data.repo.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            <p>{card.children}</p>
+        </Card>
+      ))}
+      {data.css.map(card => (
+        <Card id="UI design tools" 
+          logo={card.logo} 
+          header={card.header} 
+          link={card.link} 
+          target={card.target} 
+          category={card.category} 
+          tag={card.tag} 
+          cost={card.cost}>
+            <p>{card.children}</p>
+        </Card>
+      ))}
+      {data.community.map(card => (
         <Card id="UI design tools" 
           logo={card.logo} 
           header={card.header} 
