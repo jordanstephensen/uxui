@@ -246,7 +246,7 @@
             "category":"UI",
             "tag":"Icons",
             "cost":"Open-Source",
-            "children": "Needs descrip."
+            "children": "Open-source CSS, SVG and Figma UI Icons available in SVG Sprite, styled-components, NPM & API."
         },
         {
             "logo":"https://ionicons.com/assets/img/meta/favicon-96x96.png",
@@ -256,7 +256,7 @@
             "category":"UI",
             "tag":"Icons",
             "cost":"Open-Source",
-            "children": "Needs descrip."
+            "children": "Ionicons is a completely open-source icon set crafted for web, iOS, Android, and desktop apps."
         },
         {
             "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",

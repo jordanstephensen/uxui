@@ -4,11 +4,9 @@ import React from "react"
 import './button.scss'
 
 const Button = ({ link, type, children }) => (
-  <form action={link}>
-    <button type={type}>
-        {children}
-    </button>
-  </form>
+  <span className="button" href={link}>
+        <a className="button__text" href={link}>{children}</a>
+  </span>
 )
 
 Button.propTypes = {

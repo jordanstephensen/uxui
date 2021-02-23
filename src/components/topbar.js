@@ -9,8 +9,8 @@ import './topbar.scss'
 
 const Topbar = ({ children }) => (
   <topbar>
-      <Button type="button" link="https://github.com/jordanstephensen/uxui"><img src={github} alt="Github logo"/> &nbsp; Beta v0.1.1</Button>
-      <Button type="button" link="/about">About</Button>
+      <Button link="https://github.com/jordanstephensen/uxui"><img src={github} alt="Github logo"/> &nbsp; Beta v0.1.1</Button>
+      <Button link="/about">About</Button>
   </topbar>
 )
 

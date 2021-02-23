@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Topbar from "../components/topbar"
 import Header from "../components/header"
+import Nav from "../components/nav"
 import Filters from "../components/filters"
 import FiltersScrolled from "../components/filtersscrolled"
 import Footer from "../components/footer"
@@ -32,8 +33,8 @@ const Layout = ({ children }) => {
       <Topbar/>
       <div className="site">
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        {/* <Filters />
-        <FiltersScrolled /> */}
+        {/* <Nav /> */}
+        {/* <FiltersScrolled /> */}
 
         <div>
           <main>{children}</main>
