@@ -18,3 +18,5 @@ How to get the site running locally:
 ## Deployment
 This site was built using <a href="https://www.gatsbyjs.com/">Gatsby</a> and hosted on <a href="https://www.netlify.com/">Netlify</a>.
 Build and deployment are triggered at every push to master.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33a2fb2f-2590-402c-8233-8586d4ad3c2b/deploy-status)](https://app.netlify.com/sites/uxuicom/deploys)
