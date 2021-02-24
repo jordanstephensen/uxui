@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `UXUI`,
-    description: `Highlighting design resources and their creators`,
+    description: `Highlighting open-source design resources and their creators`,
     author: `Jordan Stephensen`,
   },
   plugins: [
@@ -21,10 +21,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/UXUI_Favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/uxui-favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
