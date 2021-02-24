@@ -8,10 +8,10 @@ import github from "../images/github.svg"
 import './topbar.scss'
 
 const Topbar = ({ children }) => (
-  <topbar>
+  <div className="topbar">
       <Button link="https://github.com/jordanstephensen/uxui"><img src={github} alt="Github logo"/> &nbsp; Beta v0.1.1</Button>
       <Button link="/about">About</Button>
-  </topbar>
+  </div>
 )
 
 

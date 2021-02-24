@@ -4,9 +4,11 @@ import React from "react"
 import './button.scss'
 
 const Button = ({ link, type, children }) => (
-  <span className="button" href={link}>
-        <a className="button__text" href={link}>{children}</a>
+  <a className="button__text" href={link}>
+    <span className="button" href={link}>
+        {children}
   </span>
+</a>
 )
 
 Button.propTypes = {

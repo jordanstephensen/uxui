@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    height: 5rem;
+    max-width: 899px;
+    position: sticky;
+    // border-bottom: 0.5px solid rgb(255, 255, 255, 1);
+}

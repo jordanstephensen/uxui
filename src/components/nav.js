@@ -2,23 +2,23 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Filter from "../components/filter"
-// import { NavLink } from 'react-router-dom'
+import NavLink from "../components/navlink"
 
 import './nav.scss'
 
 const Nav = ({ label, color, type }) => (
 
-<div className="nav">
-          {/* <NavLink to="/design-systems"><Filter label="Design Tools" /></NavLink>
-          <NavLink to="/design-systems"><Filter label="Icons" /></NavLink>
-          <NavLink to="/design-systems"><Filter label="Color" /></NavLink>
-          <NavLink to="/design-systems"><Filter label="Accessibility" /></NavLink>
-          <NavLink to="/design-systems"><Filter label="Design Systems" /></NavLink> */}
+    <div className="nav">
+        <NavLink label="All" link="/"/>
+        <NavLink label="User Experience" link="/"/>
+        <NavLink label="UI Design" link="/category/ui-design"/>
+        <NavLink label="Design Systems" link="/category/design-systems"/>
+        <NavLink label="Icons" link="/category/icons"/>
+        <NavLink label="Color" link="/category/color"/>
+        <NavLink label="Fonts" link="/category/fonts"/>
+        <NavLink label="Code" link="/category/code"/>
+        <NavLink label="Communities" link="/category/communities"/>
     </div>
-    )
-//   };
-// };
-
-
+)
 
 export default Nav

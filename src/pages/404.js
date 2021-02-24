@@ -1,14 +1,31 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import icon from "../images/uxui-icon.svg"
+import home from "../images/home.svg"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+
 
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+  <>
+  <div className="not-found" >
+  <SEO title="404: Not Found" />
+      <div className="about__content">
+          <Link to="/">
+              <img className="header__logo" src={icon} alt="UXUI"/>
+          </Link>
+          <h4>
+            There’s nothing here.
+          </h4>
+          <Link to="/">
+              <h5>Go back home</h5>
+          </Link>
+          <Link to="/">
+              <img className="about__logo-js" src={home} alt="Jordan Stephensen"/>
+          </Link>
+      </div>
+  </div>
+</>
 )
 
 export default NotFoundPage

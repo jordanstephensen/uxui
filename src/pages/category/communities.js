@@ -6,11 +6,11 @@ import SEO from "../../components/seo"
 
 import data from "../../../data/staticdata.json"
 
-const DesignSystems = () => (
+const Communities = () => (
   <Layout>
-    <SEO title="Design Systems" />
-      {data.designsystem.map(card => (
-        <Card className="cards--design-systems" 
+    <SEO title="Communities" />
+      {data.community.map(card => (
+        <Card className="cards--communities" 
           logo={card.logo} 
           header={card.header} 
           link={card.link} 
@@ -18,10 +18,10 @@ const DesignSystems = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            <h4>{card.children}</h4>
+            <p>{card.children}</p>
         </Card>
      ))} 
   </Layout>
 )
 
-export default DesignSystems
+export default Communities
