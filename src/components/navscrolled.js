@@ -6,9 +6,32 @@ import NavLink from "../components/navlink"
 
 import './nav.scss'
 
-const Nav = ({ label, color, type }) => (
+class NavScrolled extends React.Component {
+  constructor(props) {
+    super(props)
 
-    <div className="nav">
+    this.state = {
+      hasScrolled: false
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset
+
+    if (scrollTop > 230) {
+      this.setState({ hasScrolled: true })
+    } else {
+      this.setState({ hasScrolled: false })
+    }
+  }
+
+  render() {
+    return (
+    <div className={this.state.hasScrolled ? 'nav--scrolled' : 'nav--hidden'}>
         <NavLink label="All" link="/"/>
         <NavLink label="UI Design" link="/category/ui-design"/>
         <NavLink label="Design Systems" link="/category/design-systems"/>
@@ -18,6 +41,10 @@ const Nav = ({ label, color, type }) => (
         <NavLink label="Code" link="/category/code"/>
         <NavLink label="Communities" link="/category/communities"/>
     </div>
-)
+    )
+  };
+};
 
-export default Nav
+
+
+export default NavScrolled

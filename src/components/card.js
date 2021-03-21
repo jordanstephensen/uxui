@@ -38,6 +38,4 @@ Card.propTypes = {
   children: PropTypes.string,
 }
 
-
-
 export default Card

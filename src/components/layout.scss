@@ -186,7 +186,7 @@ h6 {
 p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
 }
 
@@ -198,25 +198,25 @@ p {
 /* Media Queries */
 
 @media (max-width: 900px) {
-  site {
+  .site {
     max-width: 600px;
   }
 }
 
 @media (max-width: 600px) {
-  site {
+  .site {
     max-width: 400px;
   }
 }
 
 @media (min-width: 1400px) {
-  site {
+  .site {
     max-width: 1200px;
   }
 }
 
 @media (min-width: 1800px) {
-  site {
+  .site {
     max-width: 1500px;
   }
 }

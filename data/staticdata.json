@@ -377,6 +377,18 @@
             "children": "Figma's Slack workspace, open to all. UX and UI related channels."
         }
     ],
+    "books": [
+        {
+            "logo":"https://",
+            "header":"Atomic Design",
+            "link":"https:///",
+            "target":"_blank",
+            "category":"Book",
+            "tag":"Design Systems",
+            "cost":"Open-Source",
+            "children": "Description."
+        }
+    ],
     "Unused": [
         {
             "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/788px-Sketch_Logo.svg.png",

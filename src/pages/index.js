@@ -1,14 +1,19 @@
+import PropTypes from "prop-types"
 import React from "react"
 
 import Layout from "../components/layout"
 import Card from "../components/card"
+// import Nav from "../components/nav"
 import SEO from "../components/seo"
 
 import data from "../../data/staticdata.json"
 
-const IndexPage = () => (
+const IndexPage = ({ category }) => (
   <Layout>
     <SEO title="Home" />
+    {/* <Nav /> */}
+    {/* <DataBase /> */}
+    {/* <div className={`database--${category}`}> */}
       {data.designtool.map(card => (
         <Card id="UI design tools" 
           logo={card.logo} 
@@ -117,8 +122,13 @@ const IndexPage = () => (
             <p>{card.children}</p>
         </Card>
       ))}
+    {/* </div> */}
 
   </Layout>
 )
+
+IndexPage.propTypes = {
+  category: PropTypes.string,
+}
 
 export default IndexPage
