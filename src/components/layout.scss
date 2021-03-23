@@ -220,6 +220,10 @@ p {
 }
 
 @media (max-width: 600px) {
+  body {
+    background: black;
+  }
+  
   .site {
     max-width: 400px;
   }

@@ -72,7 +72,7 @@
         border-radius: 0;  
 
         &:hover {
-            opacity: 100%;
+            opacity: 99%;
             padding: 0;
             box-shadow: none;
             border-radius: 0;  
@@ -98,6 +98,6 @@
 @media (max-width: 600px) {
 
     .card {
-        width: 350px;
+        width: 300px;
     }
 }

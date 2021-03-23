@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import data from "../../data/staticdata.json"
 
-const IndexPage = ({ category }) => (
+const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
       {data.designtool.map(card => (
