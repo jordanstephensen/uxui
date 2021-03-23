@@ -12,7 +12,7 @@ const Card = ({ logo, header, category, tag, cost, link, target, children }) => 
       <div className="card__contents__head">
           <div className="card__contents__head--logo"><img id="card__contents__head--logo" src={logo} alt={header}/></div>
           <a className="stretched-link" href={link} target={target} rel="nofollow" >
-            <img id="card__contents__head--icon" src={popout} alt="pop out icon"/>
+            <img className="card__contents__head--icon" src={popout} alt="pop out icon"/>
           </a>
       </div>
       <div className="card__contents__body">
