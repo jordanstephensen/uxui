@@ -1,5 +1,5 @@
-# Hello 👋
-Here are the source files for [UXUI](https://uxui.com)
+![UXUI Icon](https://github.com/jordanstephensen/uxui/blob/master/src/images/uxui-icon.svg)
+#Source files for [UXUI](https://uxui.com)
   
 ## What is UXUI?
 It's a directory of free and open-source product design tools, assets, resources, and communities.<br />
