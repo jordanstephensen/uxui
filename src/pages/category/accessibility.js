@@ -9,8 +9,8 @@ import data from "../../../data/staticdata.json"
 const Accessibility = () => (
   <Layout>
     <SEO title="Accessibility" />
-      {data.a11y.map(card => (
-        <Card className="cards--a11y" 
+      {data.accessibilitycolor.map(card => (
+        <Card className="cards--color" 
           logo={card.logo} 
           header={card.header} 
           link={card.link} 

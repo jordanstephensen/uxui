@@ -245,12 +245,16 @@
             "children": "An easy-to-use rapid low-fidelity UI wireframing tool."
         }
     ],
-    "a11y": [
+    "accessibilitycolor": [
         {
-        }
-    ],
-    "a11ycolor": [
-        {
+            "logo":"https://www.color-hex.com/palettes/9753.png",
+            "header":"Accessible Color Palette Builder",
+            "link":"https://toolness.github.io/accessible-color-matrix/",
+            "target":"_blank",
+            "category":"Accessibility",
+            "tag":"Color",
+            "cost":"Open-Source",
+            "children": "Generate an accessible color matrix using a color palette."
         }
     ],
     "color": [

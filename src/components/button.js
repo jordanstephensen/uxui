@@ -3,9 +3,9 @@ import React from "react"
 
 import './button.scss'
 
-const Button = ({ link, type, children }) => (
-  <a className="button__text" href={link}>
-    <span className="button" href={link}>
+const Button = ({ link, target, children }) => (
+  <a className="button__text" href={link} target={target}>
+    <span className="button">
         {children}
   </span>
 </a>
@@ -13,7 +13,7 @@ const Button = ({ link, type, children }) => (
 
 Button.propTypes = {
     link: PropTypes.string,
-    type: PropTypes.string,
+    target: PropTypes.string,
     children: PropTypes.string,
   }  
 
