@@ -1,7 +1,4 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import Filter from "../components/filter"
 import NavLink from "../components/navlink"
 
 import './nav.scss'
@@ -22,7 +19,7 @@ class NavScrolled extends React.Component {
   handleScroll = (event) => {
     const scrollTop = window.pageYOffset
 
-    if (scrollTop > 230) {
+    if (scrollTop > 225) {
       this.setState({ hasScrolled: true })
     } else {
       this.setState({ hasScrolled: false })
@@ -33,6 +30,8 @@ class NavScrolled extends React.Component {
     return (
     <div className={this.state.hasScrolled ? 'nav--scrolled' : 'nav--hidden'}>
         <NavLink label="All" link="/"/>
+        <NavLink label="UX" link="/category/ux"/>
+        <NavLink label="Accessibility" link="/category/accessibility"/>
         <NavLink label="UI Design" link="/category/ui-design"/>
         <NavLink label="Design Systems" link="/category/design-systems"/>
         <NavLink label="Icons" link="/category/icons"/>

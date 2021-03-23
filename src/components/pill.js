@@ -1,15 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
-// import cn from "classnames"
-
 
 import './pill.scss'
-
-// const classNames = cn([
-//   "pill",
-//    {  "pill__category--ux": type === "ux" ],
-//    className,
-// ]);
 
 
 const Pill = ({ label, color, type }) => (

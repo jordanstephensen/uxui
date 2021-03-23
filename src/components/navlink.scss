@@ -7,7 +7,9 @@
     padding: 5px 8px;
     margin: 2px;
     border-radius: 30px;
-
+    z-index: 250;
+    transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    
     & p {
         margin-block-start: 0em;
         margin-block-end: 0em;
@@ -32,6 +34,15 @@
         flex-flow: row nowrap;
         align-items: center;
         justify-content: center;
+    }
+
+    &:hover {
+        color: white;
+        box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255);
+        box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), inset 0px 0px 10px rgba(255, 255, 255, 0.05);
+        border-radius: 0.75rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 }
 

@@ -6,10 +6,12 @@ import NavLink from "../components/navlink"
 
 import './nav.scss'
 
-const Nav = ({ label, color, type }) => (
+const Nav = () => (
 
     <div className="nav">
         <NavLink label="All" link="/"/>
+        <NavLink label="UX" link="/category/ux"/>
+        <NavLink label="Accessibility" link="/category/accessibility"/>
         <NavLink label="UI Design" link="/category/ui-design"/>
         <NavLink label="Design Systems" link="/category/design-systems"/>
         <NavLink label="Icons" link="/category/icons"/>

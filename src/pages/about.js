@@ -32,7 +32,7 @@ const About = () => (
               This site was built using <a href="https://www.gatsbyjs.com/">Gatsby</a> and is hosted on <a href="https://www.netlify.com/">Netlify</a>. <br />
               Build and deployment are triggered at every push to master. <br />
               The site is currently in Beta and still a bit of a WIP. <br />
-              <a href="https://github.com/jordanstephensen/uxui">You are viewing v0.1.1</a>
+              <a href="https://github.com/jordanstephensen/uxui">You are viewing v0.1.2</a>
             </h5>
             <br />
             <h5>

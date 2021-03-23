@@ -8,7 +8,7 @@
             "category":"UI",
             "tag":"Design Tool",
             "cost":"Free Plan",
-            "children": "Figma is a browser-based collaborative design tool. Strong illustration capabilities too."
+            "children": "Figma is a browser-based collaborative design tool, with it's own file-sharing community."
         },
         {
             "logo":"https://raw.githubusercontent.com/podo/awesome-framer/master/logo.png",
@@ -193,6 +193,36 @@
             "children": "Pluralsight Design System"
         },        
         {
+            "logo":"data:image/png;base64,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",
+            "header":"Priceline",
+            "link":"https://priceline.github.io/design-system/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Priceline One Design System"
+        },        
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png",
+            "header":"Salesforce",
+            "link":"https://www.lightningdesignsystem.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Lightning Design System"
+        },       
+        {
+            "logo":"https://debanked.com/wp-content/uploads/2018/05/shopify_glyph.png",
+            "header":"Shopify",
+            "link":"https://polaris.shopify.com/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Polaris Design System"
+        },        
+        {
             "logo":"https://54zexyd7o4z58ttz19dx11xa-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/wework-logo.png",
             "header":"WeWork",
             "link":"https://github.com/wework/plasma",
@@ -215,16 +245,44 @@
             "children": "An easy-to-use rapid low-fidelity UI wireframing tool."
         }
     ],
+    "a11y": [
+        {
+        }
+    ],
+    "a11ycolor": [
+        {
+        }
+    ],
     "color": [
         {
             "logo":"https://ph-files.imgix.net/46ac658f-2ba2-45ce-b684-1366d80dbbe4?auto=format",
             "header":"Color Box",
             "link":"https://colorbox.io/",
             "target":"_blank",
-            "category":"UI",
-            "tag":"Color",
+            "category":"Color",
+            "tag":"Palettes",
             "cost":"Open-Source",
             "children": "An open-source tool for creating color palettes originally developed by Lyft's team."
+        },
+        {
+            "logo":"https://pbs.twimg.com/profile_images/1192635116411068416/sRokn47Y_400x400.jpg",
+            "header":"Components.ai Color Scale",
+            "link":"https://components.ai/color-scale?tab=editor",
+            "target":"_blank",
+            "category":"Color",
+            "tag":"Palettes",
+            "cost":"Open-Source",
+            "children": "An open-source tool for creating color palettes."
+        },
+        {
+            "logo":"https://pbs.twimg.com/profile_images/1192635116411068416/sRokn47Y_400x400.jpg",
+            "header":"Components.ai Gradients",
+            "link":"https://components.ai/gradient?tab=editor",
+            "target":"_blank",
+            "category":"Color",
+            "tag":"Gradients",
+            "cost":"Open-Source",
+            "children": "An open-source tool for creating gradients."
         }
     ],
     "icons": [
@@ -311,7 +369,18 @@
             "tag":"Repo",
             "cost":"Free",
             "children": "GitHub is a repository for development and version control using Git."
+        },
+        {
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/GitLab_Logo.svg/1108px-GitLab_Logo.svg.png",
+            "header":"GitLab",
+            "link":"https://gitlab.com/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"Repo",
+            "cost":"Free",
+            "children": "GitLab is a repository for development and version control using Git."
         }
+
     ],
     "css": [
         {
@@ -343,6 +412,16 @@
             "tag":"CSS",
             "cost":"Open-Source",
             "children": "A utility-first CSS framework packed with classes that can be used directly in your markup."
+        },
+        {
+            "logo":"https://pbs.twimg.com/profile_images/1298774539606863875/IMwwk2q6_400x400.jpg",
+            "header":"Stitches JS",
+            "link":"https://stitches.dev/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"CSS",
+            "cost":"Open-Source",
+            "children": "The modern CSS-in-JS library with near-zero runtime, server-side rendering, and multi-variant support."
         }
     ],
     "community": [
@@ -374,7 +453,7 @@
             "category":"Community",
             "tag":"Slack",
             "cost":"UI Design",
-            "children": "Figma's Slack workspace, open to all. UX and UI related channels."
+            "children": "Figma's Slack workspace, open to all."
         }
     ],
     "books": [
@@ -419,6 +498,16 @@
             "tag":"Design Tool",
             "cost":"$$$",
             "children": "A UI design tool with interactive states, logic, and code components built in."
+        },
+        {
+            "logo":"https://pbs.twimg.com/profile_images/826827648026472449/iRpNYOLc_400x400.jpg",
+            "header":"Heartbeat Agency",
+            "link":"https://pulse.heartbeat.ua/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Pulse Design System"
         }
     ]
 }
