@@ -14,7 +14,12 @@ const Card = ({ logo, header, category, tag, cost, link, target, children }) => 
             <img id="card__contents__head--logo" src={logo} alt={header}/>
           </div>
           <a className="stretched-link" href={link} target={target} rel="nofollow" />
-          <div className="card__contents__head--icon"><img src={popout} alt="pop out icon"/></div>
+          {/* <img className="card__contents__head--icon" src={popout} alt="pop out icon"/> */}
+          <svg className="card__contents__head--icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 1L9 12" stroke="white"/>
+            <path d="M17 12V20H1V4H9" stroke="white"/>
+            <path d="M12 1H20V9" stroke="white"/>
+          </svg>
       </div>
       <div className="card__contents__body">
         <h3>{header}</h3>
