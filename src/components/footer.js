@@ -9,7 +9,7 @@ const Footer = ({ children }) => (
       {/* <h4 class="copyright">
         © {new Date().getFullYear()}
       </h4> */}
-      <svg id="footer__flare" width="1190" height="123" viewBox="0 0 1190 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="footer__flare" width="1190" height="123" viewBox="0 0 1190 123" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.8" filter="url(#filter0_f)">
         <ellipse cx="595" cy="123" rx="525" ry="53" fill="#D45550"/>
         {/* <ellipse cx="595" cy="123" rx="525" ry="53" fill="#000000"/> */}

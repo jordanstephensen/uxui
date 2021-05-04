@@ -9,6 +9,12 @@
   bottom: 0;
   z-index: 100;
   /* backdrop-filter: blur(10px); */
+
+  &__flare {
+    position: absolute;
+    max-width: 900px;
+    margin-bottom: -0.5rem;
+  }
 }
 
 .footercontents {
@@ -20,12 +26,8 @@
   align-items: baseline;
   margin: auto;
 }
-  
-#footer__flare {
-    position: absolute;
-    max-width: 900px;
-    margin-bottom: -0.5rem;
-}
+
+
     
 /* Media Queries */
 

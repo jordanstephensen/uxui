@@ -16,6 +16,10 @@
         box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0.05), inset 0px 0px 30px rgba(255, 255, 255, 0.05);
         border-radius: 16px;
         transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+        .card__contents__head--icon {
+            opacity: 99%;
+        }
     }
 
     &:active {
@@ -49,10 +53,6 @@
 
             &--icon {
                 opacity: 30%;
-
-                // &:hover {
-                //     opacity: 100%;
-                // }
             }
         }
 
@@ -86,7 +86,7 @@
             // border-radius: 0;  
 
             .card__contents__head--icon {
-                opacity: 100%;
+                opacity: 99%;
             }
         }
     }
