@@ -53,14 +53,14 @@ body {
   &-top {
     &--left {
       position: fixed;
-      z-index: 210;
+      z-index: 300;
       top: 1.25rem;
       left: 1rem;
     }
   
     &--right {
       position: fixed;
-      z-index: 210;
+      z-index: 300;
       top: 1.25rem;
       right: 1rem;
     }
@@ -246,12 +246,10 @@ p {
   .site-top {
     &--left {
       position: absolute;
-      z-index: 100;
     }
 
     &--right {
       position: absolute;
-      z-index: 100;
     }
   }
 }
