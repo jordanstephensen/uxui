@@ -255,7 +255,18 @@
             "tag":"Color",
             "cost":"Open-Source",
             "children": "Generate an accessible color matrix using a color palette."
+        },
+        {
+            "logo":"https://leonardocolor.io/Leonardo_Logo_sm.b48b194c.svg",
+            "header":"Leonardo",
+            "link":"https://leonardocolor.io/",
+            "target":"_blank",
+            "category":"Accessibility",
+            "tag":"Color",
+            "cost":"Open-Source",
+            "children": "A tool for generating adaptive color palettes based on target contrast ratio."
         }
+
     ],
     "color": [
         {

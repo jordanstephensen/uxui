@@ -6,6 +6,7 @@ import Nav from "../components/nav"
 import NavScrolled from "./navscrolled"
 import Footer from "../components/footer"
 import Button from "../components/button"
+import github from "../images/github.svg"
 
 import "./layout.scss"
 
@@ -24,7 +25,9 @@ const Layout = ({ children }) => {
     <>
       <div className="site">
         <div className="site-top--left">
-          <Button link="https://github.com/jordanstephensen/uxui" target="_blank">Beta v0.2.3</Button>
+          <Button link="https://github.com/jordanstephensen/uxui" target="_blank">
+            <img className="site-top--left-github" src={github} alt="GitHub logo"/> &nbsp; Source
+            </Button>
         </div>
         <div className="site-top--right">
           <Button link="/about">About</Button>
