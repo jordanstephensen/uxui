@@ -308,7 +308,7 @@
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
-            "cost":"Open-Source",
+            "cost":"MIT License",
             "children": "An open-source set of 24px React icons. Sets for Sketch and Figma available as well."
         },
          {
@@ -318,8 +318,18 @@
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
-            "cost":"Open-Source",
+            "cost":"MIT License",
             "children": "Open-source CSS, SVG and Figma UI Icons available in SVG Sprite, styled-components, NPM & API."
+        },
+        {
+            "logo":"https://healthicons.org/health-icons-logo.svg",
+            "header":"Health Icons",
+            "link":"https://healthicons.org/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"MIT License",
+            "children": "An open-source set of healthcare-related icons."
         },
         {
             "logo":"https://ionicons.com/assets/img/meta/favicon-96x96.png",
@@ -328,8 +338,18 @@
             "target":"_blank",
             "category":"UI",
             "tag":"Icons",
-            "cost":"Open-Source",
+            "cost":"MIT License",
             "children": "Ionicons is a completely open-source icon set crafted for web, iOS, Android, and desktop apps."
+        },
+        {
+            "logo":"https://remixicon.com/favicon.ico",
+            "header":"Remix Icons",
+            "link":"https://remixicon.com/",
+            "target":"_blank",
+            "category":"UI",
+            "tag":"Icons",
+            "cost":"Apache 2.0 License",
+            "children": "A set of open-source neutral style system symbols for designers and developers."
         },
         {
             "logo":"https://static.production.thenounproject.com/img/nounproject_logo.60e860f212a5.png",
