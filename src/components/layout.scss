@@ -91,6 +91,16 @@ main {
       text-decoration: none;
     }
   }
+
+  &__github {    
+    &--logo {
+      width: 18px;
+      height: 18px;
+      padding-right: 5px;
+      padding-bottom: 4px;
+      vertical-align: middle;
+    }
+  }
 }
 
 .not-found {

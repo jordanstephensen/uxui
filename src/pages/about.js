@@ -3,6 +3,7 @@ import React from "react"
 import SEO from "../components/seo"
 import logo from "../images/uxui-logo.svg"
 import js from "../images/JS-logo.svg"
+import github from "../images/github.svg"
 // import { PageProps, Link, graphql } from "gatsby"
 import { Link } from "gatsby"
 
@@ -31,8 +32,8 @@ const About = () => (
               Fonts used are <a href="https://www.jetbrains.com/lp/mono/">Jetbrains Mono</a> and <a href="https://rsms.me/inter/">Inter</a>. <br /><br />
               This site was built using <a href="https://www.gatsbyjs.com/">Gatsby</a> and is hosted on <a href="https://www.netlify.com/">Netlify</a>. <br />
               Build and deployment are triggered at every push to master. <br /><br />
-              The site is currently in Beta and still a bit of a WIP. <br />
-              <a href="https://github.com/jordanstephensen/uxui">You are viewing v0.2.3</a>
+              The site is currently in Beta and still a bit of a WIP. <br /><br />
+              <a className="about__github" href="https://github.com/jordanstephensen/uxui"><img className="about__github--logo" src={github} alt="GitHub logo"/>Source</a>
             </h5>
             <br />
             <h5>

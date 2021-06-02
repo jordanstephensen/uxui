@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <div className="site-top--left">
           <Button link="https://github.com/jordanstephensen/uxui" target="_blank">
             <img className="site-top--left-github" src={github} alt="GitHub logo"/> &nbsp; Source
-            </Button>
+          </Button>
         </div>
         <div className="site-top--right">
           <Button link="/about">About</Button>
