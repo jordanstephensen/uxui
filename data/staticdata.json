@@ -173,6 +173,16 @@
             "children": "Ring UI"
         },
         {
+            "logo":"https://www.microsoft.com/design/fluent/assets/favicons/favicon-192.png",
+            "header":"Microsoft",
+            "link":"https://www.microsoft.com/design/fluent/#/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Fluent Design System"
+        },
+        {
             "logo":"https://cdn.worldvectorlogo.com/logos/pinterest-3.svg",
             "header":"Pinterest",
             "link":"https://gestalt.netlify.app/What's%20New",
@@ -203,7 +213,7 @@
             "children": "Priceline One Design System"
         },        
         {
-            "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png",
+            "logo":"https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg",
             "header":"Salesforce",
             "link":"https://www.lightningdesignsystem.com/",
             "target":"_blank",
@@ -221,6 +231,26 @@
             "tag":"React",
             "cost":"Open-Source",
             "children": "Polaris Design System"
+        },        
+        {
+            "logo":"https://avatars.githubusercontent.com/u/436010?s=200&v=4",
+            "header":"Thumbtack, Inc.",
+            "link":"https://thumbprint.design/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Thumbprint Design System"
+        },        
+        {
+            "logo":"https://paste.twilio.design/favicon-32x32.png?v=90783544737a04c20dd91367c6acf211",
+            "header":"Twilio Labs",
+            "link":"https://paste.twilio.design/",
+            "target":"_blank",
+            "category":"Design System",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "Paste Design System"
         },        
         {
             "logo":"https://54zexyd7o4z58ttz19dx11xa-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/wework-logo.png",
@@ -457,6 +487,16 @@
             "tag":"CSS",
             "cost":"Open-Source",
             "children": "The modern CSS-in-JS library with near-zero runtime, server-side rendering, and multi-variant support."
+        },
+        {
+            "logo":"https://www.radix-ui.com/favicon.svg",
+            "header":"Radix",
+            "link":"https://www.radix-ui.com/",
+            "target":"_blank",
+            "category":"Code",
+            "tag":"React",
+            "cost":"Open-Source",
+            "children": "A suite of components, colors, and icons for building high-quality React design systems and web apps."
         }
     ],
     "community": [
