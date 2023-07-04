@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Layout from "../components/layout"
-import Card from "../components/card"
+import Card from "../components/card/card"
 import SEO from "../components/seo"
 
 import data from "../../data/staticdata.json"

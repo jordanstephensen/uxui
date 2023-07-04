@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
-import popout from '../images/popout-icon.svg'
-import Pill from "../components/pill"
+import popout from '../../images/popout-icon.svg'
+import Pill from "../pill"
 
 
 import './card.scss'

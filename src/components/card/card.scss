@@ -1,18 +1,19 @@
+@import '../../styles/_colors.scss';
 
 .card {
     position: relative;
+    background: #101010;
     width: 250px;
     height: 220px;
     padding: 1rem;
-    background: rgba(255, 255, 255, 0.0);
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin: 0.55rem;
-    box-shadow: inset 0px 0px 0px 0.5px rgba(255, 255, 255);
     color: white;
+    border-radius: 4px;
 
     &:hover {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.10) 100%);
-        box-shadow: inset 0px 0px 0px 20px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0.05), inset 0px 0px 30px rgba(255, 255, 255, 0.05);
+        background: #171717;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__base__teal;
         border-radius: 16px;
         transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 
