@@ -23,17 +23,17 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="site">
-        <div className="site-top--left">
+      <div className="layout">
+        <div className="layout__top--left">
           <Button link="https://github.com/jordanstephensen/uxui" target="_blank">
-            <img className="site-top--left-github" src={github} alt="GitHub logo"/> &nbsp; Source
+            <img className="layout__top--left-github" src={github} alt="GitHub logo"/> &nbsp; Source
           </Button>
         </div>
-        <div className="site-top--right">
+        <div className="layout__top--right">
           <Button link="/about">About</Button>
         </div>
         <NavScrolled />
-        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+        <Header/>
         <Nav />
         <div>
           <main>{children}</main>
