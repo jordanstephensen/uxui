@@ -16,19 +16,28 @@ const Fonts = () => (
     <HeaderSub />
       <PageHeader icon={fonts} title="Fonts" />
       <div className="container">
-        {data.fonts.map(card => (
-          <Card className="cards--css" 
-            logo={card.logo} 
-            header={card.header} 
-            link={card.link} 
-            target={card.target} 
-            category={card.category} 
-            tag={card.tag} 
-            cost={card.cost}>
-              <p>{card.children}</p>
-          </Card>
-        ))} 
+        <div className="container__column--1">
+          <big>
+          Find the perfect font for your product with this collection of open source resources
+          </big>
+        </div>
+        <div className="container__column--2">
+          {data.fonts.map(card => (
+            <Card className="cards--css" 
+              logo={card.logo} 
+              header={card.header} 
+              link={card.link} 
+              target={card.target} 
+              category={card.category} 
+              tag={card.tag} 
+              cost={card.cost}>
+                <p>{card.children}</p>
+            </Card>
+          ))} 
+        </div>
       </div>
+    <div className="spacer" />
+
   </Layout>
 )
 

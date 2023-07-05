@@ -16,19 +16,27 @@ const Icons = () => (
     <HeaderSub />
       <PageHeader icon={icons} title="Icons" />
         <div className="container">
-        {data.icons.map(card => (
-          <Card id="Icons" 
-            logo={card.logo} 
-            header={card.header} 
-            link={card.link} 
-            target={card.target} 
-            category={card.category} 
-            tag={card.tag} 
-            cost={card.cost}>
-              <p>{card.children}</p>
-          </Card>
-        ))}
+          <div className="container__column--1">
+          <big>
+            Open source icon sets in a variety of styles
+          </big>
+        </div>
+        <div className="container__column--2">
+          {data.icons.map(card => (
+            <Card id="Icons" 
+              logo={card.logo} 
+              header={card.header} 
+              link={card.link} 
+              target={card.target} 
+              category={card.category} 
+              tag={card.tag} 
+              cost={card.cost}>
+                <p>{card.children}</p>
+            </Card>
+          ))}
+        </div>
       </div>
+    <div className="spacer" />
   </Layout>
 )
 

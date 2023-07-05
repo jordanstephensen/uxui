@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Layout from "../components/layout/layout"
 import Card from "../components/card/card"
@@ -33,7 +34,9 @@ const IndexPage = () => (
           </div>
           <div className="container__column--2 section__home--hero__nav">
             <div className="container__column--1">
-              <h1>UX</h1>
+              <AnchorLink className="section__home--hero__nav__link-header" to="/#ux">
+                <h1>UX</h1>
+              </AnchorLink>
               <div className="section__home--hero__nav__link-container">
                 <a className="section__home--hero__nav__link-container__link" href="/ux/accessibility">
                   <img className="section__home--hero__nav__link-container__link-icon" src={a11y} alt="UX Accessibility icon"/>
@@ -54,7 +57,9 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="container__column--1">
-              <h1>UI</h1>
+              <AnchorLink className="section__home--hero__nav__link-header" to="/#ui">
+                <h1>UI</h1>
+              </AnchorLink>
               <div className="section__home--hero__nav__link-container">
                 <a className="section__home--hero__nav__link-container__link" href="/ui/color">
                   <img className="section__home--hero__nav__link-container__link-icon" src={color} alt="UI Color icon"/>
@@ -85,7 +90,7 @@ const IndexPage = () => (
             UXUI is a database of product design resources curated by <a href="https://www.jordanstephensen.com" target="_blank">Jordan Stephensen</a>. Updated periodically.
           </big>
           <p>
-            Last updated July 2023.
+            Last updated July 2023
           </p>
         </div>
         <div className="section__home--info__right">
@@ -99,7 +104,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="section section__home--ux">
+      <div id="ux" className="section section__home--ux">
         <div className="container">
           <div className="container__column--1">
             <h2>UX</h2>
@@ -115,7 +120,7 @@ const IndexPage = () => (
               link="/ux/accessibility" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>Building inclusive products that can be used by everyone is important. Create accessible products using these tools, guidelines, and references.</p>
             </Card>
 
             <Card 
@@ -124,13 +129,13 @@ const IndexPage = () => (
               link="/ux/templates" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>From journey mapping to usability testing, these templates will help structure and expidite your UX process</p>
             </Card>
           </div>
         </div>
       </div>
 
-      <div className="section section__home--ui">
+      <div id="ui" className="section section__home--ui">
         <div className="container">
           <div className="container__column--1">
             <h2>UI</h2>
@@ -146,7 +151,7 @@ const IndexPage = () => (
               link="/ui/color" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>Find or build color palettes for your project using these tools</p>
             </Card>
 
             <Card 
@@ -155,7 +160,7 @@ const IndexPage = () => (
               link="/ui/design-systems" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>A database of open source design systems to adapt or use as reference</p>
             </Card>
 
             <Card 
@@ -164,7 +169,7 @@ const IndexPage = () => (
               link="/ui/fonts" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>Find the perfect font for your product with this collection of open source resources</p>
             </Card>
 
             <Card 
@@ -173,7 +178,7 @@ const IndexPage = () => (
               link="/ui/icons" 
               target="_self"
               >
-                {/* <p>"Lorem ipsum"</p> */}
+                <p>Open source icon sets in a variety of styles</p>
             </Card>
           </div>
         </div>

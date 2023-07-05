@@ -1,20 +1,15 @@
+@import '../../styles/_colors.scss';
+
 .footer {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  height: 100px;
+  height: 300px;
   margin: 0px auto;
   width: 100vw;
-  position: fixed;
   bottom: 0;
   z-index: 100;
-  
-  &__contents {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 24px;
+  padding-top: 36px;
+  border-top: 1px solid $js-colors__base__white;
+
+  &__logo {
+    width: 30px;
   }
 }

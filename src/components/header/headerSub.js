@@ -1,7 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import icon from "../../images/uxui-icon.svg"
+import github from "../../images/github.svg"
 
 import './header.scss'
 
@@ -12,9 +14,11 @@ const HeaderSub = () => {
           <img className="header__logo" src={icon} alt="UXUI"/>
         </Link>
         <div className="header__nav-links">
-          {/* <Link activeClassName="header__nav-links--active" to="/">UX Resources</Link>
-          <Link activeClassName="header__nav-links--active" to="/">UI Resources</Link> */}
-          <Link activeClassName="header__nav-links--active" to="/about">About</Link>
+          <AnchorLink activeClassName="header__nav-links--active" to="/#ux">UX Resources</AnchorLink>
+          <AnchorLink activeClassName="header__nav-links--active" to="/#ui">UI Resources</AnchorLink>
+          <Link activeClassName="header__nav-links--active" to="https://github.com/jordanstephensen/uxui" target="_blank">
+            <img src={github} alt="Github source files"/>
+          </Link>
         </div>
       </div>
     )

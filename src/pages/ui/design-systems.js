@@ -16,12 +16,12 @@ const DesignSystems = () => (
     <HeaderSub />
     <PageHeader icon={systems} title="Design Systems" />
     <div className="container">
-      {/* <div className="container__column--1">
+      <div className="container__column--1">
         <big>
-          A collection of open-source design systems that can be adapted or used as reference.
+        A database of open source design systems to adapt or use as reference
         </big>
       </div>
-      <div className="container__column--2"> */}
+      <div className="container__column--2">
         {data.designsystem.map(card => (
           <Card className="cards--design-systems" 
             logo={card.logo} 
@@ -34,8 +34,9 @@ const DesignSystems = () => (
               <big>{card.children}</big>
           </Card>
        ))}
-      {/* </div> */}
+      </div>
     </div>
+    <div className="spacer" />
   </Layout>
 )
 
