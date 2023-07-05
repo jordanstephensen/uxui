@@ -102,7 +102,7 @@ const IndexPage = () => (
             Have you created a product design resource or tool?
           </big>
           <big>
-            <Link href="mailto:jordanstephensen@gmail.com" target="_blank">Submit a resource here</Link>
+            <Link href="mailto:jordanstephensen@gmail.com" target="_blank">Submit it here</Link>
           </big>
         </div>
       </div>
