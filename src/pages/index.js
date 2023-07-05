@@ -27,8 +27,8 @@ const IndexPage = () => (
         <div className="container">
           <div className="container__column--1">
             <big className="section__home--hero__intro">
-              Free and open-source tools and resources
-              for the entire product design process.
+              Free or open-source tools and resources
+              for the entire product design process
             </big>
           </div>
           <div className="container__column--2 section__home--hero__nav">
@@ -46,11 +46,11 @@ const IndexPage = () => (
                 <a className="section__home--hero__nav__link-container__link" href="/ux/reference">
                   <img className="section__home--hero__nav__link-container__link-icon" src={references} alt="UX References icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">References</big>
-                </a>
+                </a> */}
                 <a className="section__home--hero__nav__link-container__link" href="/ux/templates">
                   <img className="section__home--hero__nav__link-container__link-icon" src={templates} alt="UX Templates icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Templates</big>
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="container__column--1">
@@ -113,6 +113,15 @@ const IndexPage = () => (
               logo={a11y} 
               header="Accessibility" 
               link="/ux/accessibility" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
+            </Card>
+
+            <Card 
+              logo={templates} 
+              header="Templates" 
+              link="/ux/templates" 
               target="_self"
               >
                 {/* <p>"Lorem ipsum"</p> */}

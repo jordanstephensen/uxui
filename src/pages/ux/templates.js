@@ -2,14 +2,21 @@ import React from "react"
 
 import Layout from "../../components/layout/layout"
 import Card from "../../components/card/card"
+import HeaderSub from "../../components/header/headerSub"
 import SEO from "../../components/seo"
+import PageHeader from "../../components/pageHeader/pageHeader"
+
+import templates from "../../images/icons/icon-templates.svg"
 
 import data from "../../../data/staticdata.json"
 
 const TemplatesPage = () => (
   <Layout>
     <SEO title="Templates" />
-      {data.wireframing.map(card => (
+      <HeaderSub />
+      <PageHeader icon={templates} title="Templates" />
+      <div className="container">
+      {data.templates.map(card => (
         <Card  
           logo={card.logo} 
           header={card.header} 
@@ -21,6 +28,7 @@ const TemplatesPage = () => (
             {card.children}
         </Card>
       ))}
+    </div>
   </Layout>
 )
 

@@ -13,7 +13,7 @@ import data from "../../../data/staticdata.json"
 const Accessibility = () => (
   <Layout>
     <SEO title="Accessibility" />
-    <HeaderSub />
+      <HeaderSub />
       <PageHeader icon={a11y} title="Accessibility" />
       <div className="container">
       {data.accessibilitycolor.map(card => (
