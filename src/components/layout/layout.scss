@@ -48,9 +48,11 @@ body {
 }
 
 .section {
+  margin-bottom: 48px;
+
   &__home {
     &--hero {
-      height: 90vh;
+      min-height: 90vh;
       color: $js-colors__text__light--primary;
 
       &__intro {
@@ -58,6 +60,7 @@ body {
         font-size: 36px;
         line-height: 42px;
         min-width: 300px;
+        padding-right: 48px;
       }
 
       &__nav {
@@ -110,8 +113,25 @@ body {
   
     &--ux {
       background: $js-colors__base__white;
-      height: 90vh;
+      min-height: 60vh;
       color: $js-colors__text__dark--primary;
+      padding: 60px 0px;
+
+      // .card {
+      //   background-color: white;
+      //   color: $js-colors__text__dark--primary;
+
+      //   &__contents__head--logo {
+      //     width: 120px;
+      //   }
+      // }
+    }
+
+    &--ui {
+      background: $js-colors__base__black;
+      min-height: 60vh;
+      color: $js-colors__text__light--primary;
+      padding: 60px 0px;
     }
   }  
 }
@@ -199,8 +219,29 @@ footer {
   }
 }
 
-@media (max-width: 900px) {
-  .container {
-    flex-flow: column nowrap;
+// @media (max-width: 900px) {
+//   .container {
+//     flex-flow: column nowrap;
+//   }
+// }
+
+@media (max-width: 666px) {
+  .section {
+    &__home--hero {
+      &__intro {
+        margin-top: 220px;
+        margin-left: 0px;
+        font-size: 24px;
+        line-height: 36px;
+      }
+
+      &__nav {
+        min-width: 300px;
+
+        h1 {
+          font-size: 200px;
+        }
+      }
+    }
   }
 }

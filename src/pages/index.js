@@ -21,7 +21,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
       <Header />
-      <div className="section__home--hero">
+      <div className="section section__home--hero">
         <div className="container">
           <div className="container__column--1">
             <big className="section__home--hero__intro">
@@ -33,7 +33,7 @@ const IndexPage = () => (
             <div className="container__column--1">
               <h1>UX</h1>
               <div className="section__home--hero__nav__link-container">
-                <a className="section__home--hero__nav__link-container__link" href="/ux/a11y">
+                <a className="section__home--hero__nav__link-container__link" href="/ux/accessibility">
                   <img className="section__home--hero__nav__link-container__link-icon" src={a11y} alt="UX Accessibility icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Accessibility</big>
                 </a>
@@ -75,7 +75,8 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      {/* <div className="section__home--ux">
+
+      <div className="section section__home--ux">
         <div className="container">
           <div className="container__column--1">
             <h2>UX</h2>
@@ -85,45 +86,67 @@ const IndexPage = () => (
             </big>
           </div>
           <div className="container__column--2">
-            <Card
-              logo={education} 
+            <Card 
+              logo={a11y} 
               header="Accessibility" 
-              link="/accessibility" 
-              category="XX" 
-              tag="XX" 
-              cost="XX">
-                <h4>Accessibility resources</h4>
-            </Card>
-            <Card
-              logo={education} 
-              header="Accessibility" 
-              link="/accessibility" 
-              category="XX" 
-              tag="XX" 
-              cost="XX">
-                <h4>Accessibility resources</h4>
-            </Card>
-            <Card
-              logo={education} 
-              header="Accessibility" 
-              link="/accessibility" 
-              category="XX" 
-              tag="XX" 
-              cost="XX">
-                <h4>Accessibility resources</h4>
-            </Card>
-            <Card
-              logo={education} 
-              header="Accessibility" 
-              link="/accessibility" 
-              category="XX" 
-              tag="XX" 
-              cost="XX">
-                <h4>Accessibility resources</h4>
+              link="/ux/accessibility" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
             </Card>
           </div>
         </div>
-      </div> */}
+      </div>
+
+      <div className="section section__home--ui">
+        <div className="container">
+          <div className="container__column--1">
+            <h2>UI</h2>
+            <h3>User Interface</h3>
+            <big>
+              The user interface (UI) is the point of human-computer interaction and communication in a device. This can include display screens, keyboards, a mouse and the appearance of a desktop. It is also the way through which a user interacts with an application or a website.
+            </big>
+          </div>
+          <div className="container__column--2">
+            <Card 
+              logo={color} 
+              header="Color" 
+              link="/ui/color" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
+            </Card>
+
+            <Card 
+              logo={systems} 
+              header="Design Systems" 
+              link="/ui/design-systems" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
+            </Card>
+
+            <Card 
+              logo={fonts} 
+              header="Fonts" 
+              link="/ui/fonts" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
+            </Card>
+
+            <Card 
+              logo={icons} 
+              header="Icons" 
+              link="/ui/icons" 
+              target="_self"
+              >
+                {/* <p>"Lorem ipsum"</p> */}
+            </Card>
+          </div>
+        </div>
+      </div>
+
 
 
 

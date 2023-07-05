@@ -12,8 +12,8 @@ const HeaderSub = () => {
           <img className="header__logo" src={icon} alt="UXUI"/>
         </Link>
         <div className="header__nav-links">
-          <Link activeClassName="header__nav-links--active" to="/">UX Resources</Link>
-          <Link activeClassName="header__nav-links--active" to="/">UI Resources</Link>
+          {/* <Link activeClassName="header__nav-links--active" to="/">UX Resources</Link>
+          <Link activeClassName="header__nav-links--active" to="/">UI Resources</Link> */}
           <Link activeClassName="header__nav-links--active" to="/about">About</Link>
         </div>
       </div>

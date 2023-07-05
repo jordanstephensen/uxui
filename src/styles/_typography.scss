@@ -32,25 +32,22 @@ h1 {
   h3 {
     font-family: 'Helvetica', sans-serif;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -1px;
     line-height: 40px;
     margin: 0;
-    z-index: 1;
   }
   
   h4 {
-    font-family: 'Jetbrains Mono', monospace;
-    font-size: 1.25rem;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
     font-weight: 300;
-    box-shadow: none;
-    padding: 0px;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
   }
   
   h5 {
-    font-family: 'Jetbrains Mono', monospace;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 300;
     font-size: 1rem;
   }
@@ -62,10 +59,10 @@ h1 {
   }
 
   big {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jetbrains Mono', monospace;
     font-size: 22px;
-    font-weight: 200;
-    line-height: 36px;
+    font-weight: 100;
+    line-height: 32px;
   }
   
   p {
