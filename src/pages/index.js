@@ -1,6 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import Card from "../components/card/card"
@@ -38,22 +39,22 @@ const IndexPage = () => (
                 <h1>UX</h1>
               </AnchorLink>
               <div className="section__home--hero__nav__link-container">
-                <a className="section__home--hero__nav__link-container__link" href="/ux/accessibility">
+                <Link className="section__home--hero__nav__link-container__link" href="/ux/accessibility">
                   <img className="section__home--hero__nav__link-container__link-icon" src={a11y} alt="UX Accessibility icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Accessibility</big>
-                </a>
-                {/* <a className="section__home--hero__nav__link-container__link" href="/ux/education">
+                </Link>
+                {/* <Link className="section__home--hero__nav__link-container__link" href="/ux/education">
                   <img className="section__home--hero__nav__link-container__link-icon" src={education} alt="UX Education icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Education</big>
-                </a>
-                <a className="section__home--hero__nav__link-container__link" href="/ux/reference">
+                </Link>
+                <Link className="section__home--hero__nav__link-container__link" href="/ux/reference">
                   <img className="section__home--hero__nav__link-container__link-icon" src={references} alt="UX References icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">References</big>
-                </a> */}
-                <a className="section__home--hero__nav__link-container__link" href="/ux/templates">
+                </Link> */}
+                <Link className="section__home--hero__nav__link-container__link" href="/ux/templates">
                   <img className="section__home--hero__nav__link-container__link-icon" src={templates} alt="UX Templates icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Templates</big>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="container__column--1">
@@ -61,22 +62,22 @@ const IndexPage = () => (
                 <h1>UI</h1>
               </AnchorLink>
               <div className="section__home--hero__nav__link-container">
-                <a className="section__home--hero__nav__link-container__link" href="/ui/color">
+                <Link className="section__home--hero__nav__link-container__link" href="/ui/color">
                   <img className="section__home--hero__nav__link-container__link-icon" src={color} alt="UI Color icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Color</big>
-                </a>
-                <a className="section__home--hero__nav__link-container__link" href="/ui/design-systems">
+                </Link>
+                <Link className="section__home--hero__nav__link-container__link" href="/ui/design-systems">
                   <img className="section__home--hero__nav__link-container__link-icon" src={systems} alt="UI Design Systems icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Design Systems</big>
-                </a>
-                <a className="section__home--hero__nav__link-container__link" href="/ui/fonts">
+                </Link>
+                <Link className="section__home--hero__nav__link-container__link" href="/ui/fonts">
                   <img className="section__home--hero__nav__link-container__link-icon" src={fonts} alt="UI Fonts icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Fonts</big>
-                </a>
-                <a className="section__home--hero__nav__link-container__link" href="/ui/icons">
+                </Link>
+                <Link className="section__home--hero__nav__link-container__link" href="/ui/icons">
                   <img className="section__home--hero__nav__link-container__link-icon" src={icons} alt="UI Icons icon"/>
                   <big className="section__home--hero__nav__link-container__link-text">Icons</big>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,9 +88,11 @@ const IndexPage = () => (
         <div className="section__home--info__left">
           <img className="section__home--info__left-icon" src={info} alt="Info icon"/>
           <big>
-            UXUI is a database of product design resources curated by <a href="https://www.jordanstephensen.com" target="_blank">Jordan Stephensen</a>. Updated periodically.
+            UXUI is a database of product design resources curated by <Link href="https://www.jordanstephensen.com" target="_blank">Jordan Stephensen</Link>. Updated periodically.
           </big>
           <p>
+            <Link to="https://github.com/jordanstephensen/uxui" target="_blank">Source files</Link>
+            <br/>
             Last updated July 2023
           </p>
         </div>
@@ -99,7 +102,7 @@ const IndexPage = () => (
             Have you created a product design resource or tool?
           </big>
           <big>
-            <a href="mailto:jordanstephensen@gmail.com" target="_blank">Submit a resource here</a>
+            <Link href="mailto:jordanstephensen@gmail.com" target="_blank">Submit a resource here</Link>
           </big>
         </div>
       </div>
