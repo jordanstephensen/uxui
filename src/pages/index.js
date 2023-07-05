@@ -108,7 +108,7 @@ const IndexPage = () => (
         <div className="container">
           <div className="container__column--1">
             <h2>UX</h2>
-            <h3>User Experience</h3>
+            <h3>User Experience Resources</h3>
             <big>
               User experience (UX) focuses on having a deep understanding of users, what they need, what they value, their abilities, and also their limitations. It also takes into account the business goals and objectives of the group managing the project.
             </big>
@@ -139,7 +139,7 @@ const IndexPage = () => (
         <div className="container">
           <div className="container__column--1">
             <h2>UI</h2>
-            <h3>User Interface</h3>
+            <h3>User Interface Resources</h3>
             <big>
               The user interface (UI) is the point of human-computer interaction and communication in a device. This can include display screens, keyboards, a mouse and the appearance of a desktop. It is also the way through which a user interacts with an application or a website.
             </big>
