@@ -20,7 +20,7 @@
     }
 
     &:hover {
-        background: #1b1b1b;
+        background: #252525;
         box-shadow: inset 0px 0px 0px 1px $js-colors__base__teal;
         border-radius: 16px;
         transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -60,7 +60,7 @@
                 width: 45px;
                 height: 45px;
 
-                #card__contents__head--logo {
+                &-image {
                     height: 100%;
                     width: 100%;
                     object-fit: contain;

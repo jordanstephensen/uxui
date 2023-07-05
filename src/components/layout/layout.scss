@@ -48,7 +48,7 @@ body {
 }
 
 .section {
-  margin-bottom: 48px;
+  padding-bottom: 48px;
 
   &__home {
     &--hero {
@@ -58,6 +58,7 @@ body {
       &__intro {
         margin-top: 305px;
         font-size: 36px;
+        font-weight: 100;
         line-height: 42px;
         min-width: 300px;
         padding-right: 48px;
@@ -110,28 +111,79 @@ body {
         }
       }
     }
+
+    &--info {
+      height: 300px;
+      display: flex;
+      color: $js-colors__text__dark--primary;
+
+      &__left {
+        flex: 1 1 350px;
+        background-color: $js-colors__base__white;
+        padding: 24px;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 24px;
+
+        &-icon {
+          width: 72px;
+        }
+      }
+
+      &__right {
+        flex: 1 1 350px;
+        background-color: $js-colors__base__teal;
+        padding: 24px;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 24px;
+
+        &-icon {
+          width: 72px;
+        }
+      }
+    }
   
     &--ux {
+      background: $js-colors__base__black;
+      min-height: 60vh;
+      color: $js-colors__text__light--primary;
+      padding: 60px 0px;
+
+      .card {
+        &:hover {
+          .card__contents__head--logo-image {
+            opacity: 15%;
+          }
+        }
+
+        &__contents__head--logo-image {
+          width: 120px;
+          height: 120px;
+          opacity: 10%;
+        }
+      }
+    }
+
+    &--ui {
       background: $js-colors__base__white;
       min-height: 60vh;
       color: $js-colors__text__dark--primary;
       padding: 60px 0px;
 
-      // .card {
-      //   background-color: white;
-      //   color: $js-colors__text__dark--primary;
+      .card {
+        background-color: rgba(255,255,255,0.5);
+        color: $js-colors__text__dark--primary;
 
-      //   &__contents__head--logo {
-      //     width: 120px;
-      //   }
-      // }
-    }
+        &:hover {
+          background-color: rgba(255,255,255,1);
+        }
 
-    &--ui {
-      background: $js-colors__base__black;
-      min-height: 60vh;
-      color: $js-colors__text__light--primary;
-      padding: 60px 0px;
+        &__contents__head--logo-image {
+          width: 120px;
+          height: 120px;
+        }
+      }
     }
   }  
 }

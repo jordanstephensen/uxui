@@ -14,6 +14,8 @@ import systems from "../images/icons/icon-designsystems.svg"
 import color from "../images/icons/icon-color.svg"
 import icons from "../images/icons/icon-icons.svg"
 import fonts from "../images/icons/icon-fonts.svg"
+import info from "../images/icons/icon-info.svg"
+import mail from "../images/icons/icon-mail.svg"
 
 import data from "../../data/staticdata.json"
 
@@ -73,6 +75,27 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="section__home--info">
+        <div className="section__home--info__left">
+          <img className="section__home--info__left-icon" src={info} alt="Info icon"/>
+          <big>
+            UXUI is a database of product design resources curated by <a href="https://www.jordanstephensen.com" target="_blank">Jordan Stephensen</a>. Updated periodically.
+          </big>
+          <p>
+            Last updated July 2023.
+          </p>
+        </div>
+        <div className="section__home--info__right">
+          <img className="section__home--info__right-icon" src={mail} alt="Mail icon"/>
+          <big>
+            Have you created a product design resource or tool?
+          </big>
+          <big>
+            <a href="mailto:jordanstephensen@gmail.com" target="_blank">Submit a resource here</a>
+          </big>
         </div>
       </div>
 

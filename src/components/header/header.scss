@@ -10,7 +10,6 @@
   z-index: 100;
   color: $js-colors__text__light--primary;
   background: transparent;
-  transition: 0.5s ease;
   padding: 24px;
 
   &__logo {
@@ -18,6 +17,10 @@
     margin-top: 36px;
     transition: 0.5s ease;
     color: $js-colors__text__light--primary;
+    
+    svg {
+      fill: #00FFC2;
+    }
   }
 
 &__nav-links {
@@ -34,7 +37,6 @@
     z-index: 100;
     color: $js-colors__text__light--primary;
     background: transparent;
-    transition: 0.5s ease;
     padding: 24px;  
     
     background: $js-colors__base__black;

@@ -53,7 +53,7 @@
             "children": "Apple Developer Design Guidelines"
         },
         {
-            "logo":"https://cfdn.clearvision-cm.com/2019/02/15102556/Atlassian-Logo.png",
+            "logo":"https://companieslogo.com/img/orig/TEAM-ddb0dd07.png?t=1683437134",
             "header":"Atlassian",
             "link":"https://atlassian.design/",
             "target":"_blank",
@@ -263,16 +263,16 @@
             "children": "Plasma Design System"
         }
     ],
-    "wireframing": [
+    "templates": [
         {
-            "logo":"https://ga1.imgix.net/logo/o/91065-1487749816-7583342?auto=format&ch=Width%2CDPR&dpr=2.63&ixjsv=2.0.0&ixlib=rb-1.0.0&q=38&w=400",
-            "header":"Balsamiq",
-            "link":"https://balsamiq.com/",
+            "logo":"https://asset.brandfetch.io/idAnDTFapY/idYC5f2L1X.png",
+            "header":"Miro",
+            "link":"https://miro.com/templates/ux/",
             "target":"_blank",
-            "category":"UI",
-            "tag":"Wireframing",
-            "cost":"$$$",
-            "children": "An easy-to-use rapid low-fidelity UI wireframing tool."
+            "category":"UX",
+            "tag":"Templates",
+            "cost":"Free",
+            "children": "Lead design tasks and visually lay out concepts and ideas with Miro's UX templates collection."
         }
     ],
     "accessibilitycolor": [

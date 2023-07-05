@@ -11,7 +11,7 @@ const Card = ({ logo, header, category, tag, cost, link, target, children }) => 
     <div className="card__contents">
       <div className="card__contents__head">
           <div className="card__contents__head--logo">
-            <img id="card__contents__head--logo" src={logo} alt={header}/>
+            <img className="card__contents__head--logo-image" src={logo} alt={header}/>
           </div>
           <a className="stretched-link" href={link} target={target} rel="nofollow" />
           {target === "_blank" && 
