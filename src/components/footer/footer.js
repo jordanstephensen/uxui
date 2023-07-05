@@ -5,7 +5,7 @@ import './footer.scss'
 
 const Footer = ({ children }) => (
   <div className="footer">
-    <div class="footercontents">
+    <div class="footer__contents">
       <h4 class="copyright">
         © {new Date().getFullYear()}
       </h4>

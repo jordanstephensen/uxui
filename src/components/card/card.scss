@@ -2,17 +2,23 @@
 
 .card {
     position: relative;
-    background: #101010;
+    background: #1b1b1b;
     width: 250px;
     height: 220px;
-    padding: 1rem;
+    padding: 16px;
     transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    margin: 0.55rem;
-    color: white;
+    color: $js-colors__text__light--primary;
     border-radius: 4px;
 
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 28px;
+    }
+
     &:hover {
-        background: #171717;
+        background: #1b1b1b;
         box-shadow: inset 0px 0px 0px 1px $js-colors__base__teal;
         border-radius: 16px;
         transition: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -64,6 +70,10 @@
         &__body {
             margin-bottom: 0.25rem;
             flex-grow: 2;
+
+            &-children {
+                color: $js-colors__text__light--secondary;
+            }
         }
 
         &__pill-container {

@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../../components/layout"
+import Layout from "../../components/layout/layout"
 import Card from "../../components/card/card"
 import SEO from "../../components/seo"
 

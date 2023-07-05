@@ -1,0 +1,76 @@
+@import '../../styles/_colors.scss';
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  color: $js-colors__text__light--primary;
+  background: transparent;
+  transition: 0.5s ease;
+  padding: 24px;
+
+  &__logo {
+    width: 100px;
+    margin-top: 36px;
+    transition: 0.5s ease;
+    color: $js-colors__text__light--primary;
+  }
+
+&__nav-links {
+  display: none;
+}
+
+  &--scrolled {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    color: $js-colors__text__light--primary;
+    background: transparent;
+    transition: 0.5s ease;
+    padding: 24px;  
+    
+    background: $js-colors__base__black;
+    border-bottom: 1px solid $js-colors__base__white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+
+    .header {
+      &__logo {
+        width: 30px;
+        margin-top: 0px;
+      }
+  
+      &__nav-links {
+        display: flex;
+        gap: 16px;
+        color: $js-colors__text__light--primary;
+    
+        &--active {
+          color: $js-colors__base--teal;
+        }
+    
+        & a {
+          color: $js-colors__text__light--primary;
+          font-size: 24px;
+          text-decoration: none;
+          font-weight: 300;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }  
+    }
+  }
+}

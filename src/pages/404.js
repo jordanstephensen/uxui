@@ -5,7 +5,7 @@ import home from "../images/home.svg"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
-import '../components/layout.scss'
+import '../components/layout/layout.scss'
 
 const NotFoundPage = () => (
   <>

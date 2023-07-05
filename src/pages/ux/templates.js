@@ -1,16 +1,16 @@
 import React from "react"
 
-import Layout from "../../components/layout"
+import Layout from "../../components/layout/layout"
 import Card from "../../components/card/card"
 import SEO from "../../components/seo"
 
 import data from "../../../data/staticdata.json"
 
-const Icons = () => (
+const TemplatesPage = () => (
   <Layout>
-    <SEO title="Icons" />
-      {data.icons.map(card => (
-        <Card id="Icons" 
+    <SEO title="Templates" />
+      {data.wireframing.map(card => (
+        <Card  
           logo={card.logo} 
           header={card.header} 
           link={card.link} 
@@ -18,10 +18,10 @@ const Icons = () => (
           category={card.category} 
           tag={card.tag} 
           cost={card.cost}>
-            <p>{card.children}</p>
+            {card.children}
         </Card>
-     ))} 
+      ))}
   </Layout>
 )
 
-export default Icons
+export default TemplatesPage

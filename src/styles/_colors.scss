@@ -1,5 +1,5 @@
 $js-colors__base__black: #010101;
-$js-colors__base__white: #F3FAF9;
+$js-colors__base__white: #F4F2ED;
 $js-colors__base__teal: #00FFC2;
 
 $js-colors__alpha__dark--1: rgba(0,0,0,0.75);
@@ -14,6 +14,6 @@ $js-colors__text__dark--primary: rgba(0,0,0,0.9);
 $js-colors__text__dark--secondary: rgba(0,0,0,0.8);
 $js-colors__text__dark--tertiary: rgba(0,0,0,0.6);
 
-$js-colors__text__light--primary: rgba(255,255,255,0.9);
-$js-colors__text__light--secondary: rgba(255,255,255,0.8);
-$js-colors__text__light--tertiary: rgba(255,255,255,0.6);
+$js-colors__text__light--primary: #{$js-colors__base__white}e6;
+$js-colors__text__light--secondary: #{$js-colors__base__white}cc;
+$js-colors__text__light--tertiary: #{$js-colors__base__white}99;

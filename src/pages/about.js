@@ -7,7 +7,7 @@ import github from "../images/github.svg"
 // import { PageProps, Link, graphql } from "gatsby"
 import { Link } from "gatsby"
 
-import '../components/layout.scss'
+import '../components/layout/layout.scss'
 
 // type DataProps = {
 //     site: {

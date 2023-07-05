@@ -1,0 +1,11 @@
+.page-header {
+    display: flex;
+    gap: 48px;
+    flex-flow: row wrap;
+    margin: 120px 24px 48px 24px ;
+    align-items: center;
+
+    &__icon {
+        height: 96px;
+    }
+}

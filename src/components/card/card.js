@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import popout from '../../images/popout-icon.svg'
-import Pill from "../pill"
+import Pill from "../pill/pill"
 
 
 import './card.scss'
@@ -22,8 +22,8 @@ const Card = ({ logo, header, category, tag, cost, link, target, children }) => 
           </svg>
       </div>
       <div className="card__contents__body">
-        <h3>{header}</h3>
-        {children}
+        <h3 className="card__contents__body-header">{header}</h3>
+        <span className="card__contents__body-children">{children}</span>
       </div>
       <div className="card__contents__pill-container">
         <Pill label={category} type={category} />
