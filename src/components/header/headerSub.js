@@ -10,9 +10,9 @@ import './header.scss'
 const HeaderSub = () => {
     return (
     <div className="header--scrolled">
-        <Link to="/">
+        <AnchorLink to="/#top">
           <img className="header__logo" src={icon} alt="UXUI"/>
-        </Link>
+        </AnchorLink>
         <div className="header__nav-links">
           <AnchorLink activeClassName="header__nav-links--active" to="/#ux">UX Resources</AnchorLink>
           <AnchorLink activeClassName="header__nav-links--active" to="/#ui">UI Resources</AnchorLink>

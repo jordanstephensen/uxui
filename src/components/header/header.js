@@ -33,9 +33,9 @@ class Header extends React.Component {
   render() {
     return (
     <div className={this.state.hasScrolled ? 'header header--scrolled' : 'header'}>
-        <Link to="/">
+        <AnchorLink to="/#top">
           <img className="header__logo" src={icon} alt="UXUI"/>
-        </Link>
+        </AnchorLink>
         <div className="header__nav-links">
           <AnchorLink activeClassName="header__nav-links--active" to="/#ux">UX Resources</AnchorLink>
           <AnchorLink activeClassName="header__nav-links--active" to="/#ui">UI Resources</AnchorLink>

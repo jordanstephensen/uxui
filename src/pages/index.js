@@ -25,7 +25,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
       <Header />
-      <div className="section section__home--hero">
+      <div id="top" className="section section__home--hero">
         <div className="container">
           <div className="container__column--1">
             <big className="section__home--hero__intro">
